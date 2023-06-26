@@ -3,7 +3,7 @@ import InformationContainer from "./InformationContainer";
 
 import Avatar from "../img/eu.png";
 
-import "../styles/components/sidebar.sass";
+import "../Styles/components/sidebar.sass";
 
 import profile from "../img/arquivos/Profiles.pdf"
 
