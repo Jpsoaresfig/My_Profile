@@ -2,7 +2,7 @@ import TechnologiesContainer from "./TechnologiesContainer";
 import AboutContainer from "./AboutContainer";
 import ProjectsContainer from "./ProjectsContainers";
 
-import "../styles/components/maincontents.sass";
+import "../styles/components/maincontent.sass";
 
 const MainContent = () => {
   return (
