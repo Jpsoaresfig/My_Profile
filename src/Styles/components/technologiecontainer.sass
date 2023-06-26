@@ -1,0 +1,49 @@
+@use '../variables'
+@use '../mixins'
+    
+.technologies-container
+    margin-bottom: 1rem
+
+    .technologies-grid
+        display: flex
+        flex-wrap: wrap
+        gap: 1.5rem
+
+    .technology-card
+        @include mixins.center
+        gap: 2rem
+        padding: 0.7rem
+        border: 2px solid #333
+        width: 48%
+        border-radius: variables.$card-border-radius 
+
+        h3
+            color: variables.$text-color
+            margin-bottom: 1rem
+
+        svg
+            font-size: 10rem
+
+    #html
+        svg
+            color: #E44D26
+
+    #css
+        svg
+            color: #1572B6
+
+    #js
+        svg
+            color: #F0DB4F
+
+    #node
+        svg
+            color: #83CD29
+
+    #java
+        svg
+            color: #00618A
+
+    #react
+        svg
+            color: #00c8ff corrija a parte do css
