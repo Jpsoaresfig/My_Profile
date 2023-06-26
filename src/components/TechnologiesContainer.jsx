@@ -1,11 +1,5 @@
-import {
-    DiHtml5,
-    DiCss3,
-    DiJsBadge,
-    DiNodejsSmall,
-    DiJava,
-    DiReact,
-  } from "react-icons/di";
+import { DiHtml5, DiCss3, DiJsBadge, DiNodejsSmall, DiJava, DiReact } from "react-icons/di";
+
   
   import "../styles/components/technologiecontainer.sass";
   
@@ -56,7 +50,7 @@ import {
       ],
     },
     {
-      id: "react",
+      id: "reactjs",
       name: "React",
       icon: <DiReact />,
       paragraphs: [
