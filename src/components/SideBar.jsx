@@ -5,7 +5,7 @@ import Avatar from "../img/eu.png";
 
 import "../styles/components/sidebar.sass";
 
-import profile from "../img/arquivos/Profile.pdf"
+import profile from "../img/arquivos/Profiles.pdf"
 
 
 const Sidebar = () => {
