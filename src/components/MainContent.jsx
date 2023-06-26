@@ -1,4 +1,4 @@
-import "../styles/components/maincontent.sass";
+import "../Styles/components/maincontent.sass"
 
 import TechnologiesContainer from "./TechnologiesContainer";
 import AboutContainer from "./AboutContainer";
