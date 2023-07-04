@@ -4,7 +4,7 @@ import '../Styles/components/aboutconteiner.sass'
 const AboutContainer = () => {
     return (
       <section className="about-container">
-        <h2>Um pouco sobre mim</h2>
+        <h2>Bem-vindo(a):</h2>
         <p>
         Olá, sou o João Pedro e este é o meu portfólio online. 
         Aqui você encontrará informações sobre mim, meus projetos pessoais e
