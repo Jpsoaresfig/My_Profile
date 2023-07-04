@@ -9,14 +9,14 @@ const InformationContainer = () => {
         <AiFillPhone id="phone-icon" />
         <div>
           <h3>Telefone</h3>
-          <p>(84) 99631-2949</p>
+          <p id="numtele">(84) 99631-2949</p>
         </div>
       </div>
       <div className="info-card">
         <AiOutlineMail id="email-icon" />
         <div>
           <h3>E-mail</h3>
-          <p>jpbusinesss@hotmail.com</p>
+          <p id="email">jpbusinesss@hotmail.com</p>
         </div>
       </div>
       <div className="info-card">
