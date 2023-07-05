@@ -28,7 +28,7 @@ const Sidebar = () => {
       <p> Estou determinado a expandir meus conhecimentos e fazer parte das inovações, maximizando minha experiência por meio de oportunidades de aprendizado de alto impacto.</p>
 
     <h2 id="AboutMe">Meu primeiro Job: </h2>
-      <iframe id="videojptec" width="500" height="315" src="https://www.youtube.com/embed/tZflWQKvyJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe id="videojptec" width="500" height="315" src="https://www.youtube.com/embed/tZflWQKvyJw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
     </aside>
