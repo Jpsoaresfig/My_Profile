@@ -28,12 +28,12 @@ const Sidebar = () => {
       <p>Ao estudar Ciência da Computação, percebo que estou trilhando o caminho certo. Desfruto do que estudo e faço, o que me proporciona um crescimento contínuo.</p>
       <p> Estou determinado a expandir meus conhecimentos e fazer parte das inovações, maximizando minha experiência por meio de oportunidades de aprendizado de alto impacto.</p>
 
-    <h2 id="AboutMe">Meu primeiro Job: </h2>
+      <h2 id="AboutMe">Meu primeiro Job: </h2>
       <iframe id="videojptec" width="500" height="315" src="https://www.youtube.com/embed/tZflWQKvyJw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      
-      
-      
-      <img src="src\img\react.png"  className="reactsimble" alt="" />
+
+
+
+      <img src="src\img\react.png" className="reactsimble" alt="" />
 
     </aside>
   );
