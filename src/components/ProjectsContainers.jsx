@@ -10,7 +10,7 @@ const ProjectsContainer = () => {
         Gostaria de convidá-lo(a) a dar uma olhada em alguns dos meus projetos. Clique no botao abaixo para explorar o meu portfólio:
       </p>
       <br />
-      <a href="https://github.com/Jpsoaresfig?tab=repositories" className="bton">
+      <a href="https://github.com/Jpsoaresfig?tab=repositories" target="_blank" className="bton">
         clique aqui!
       </a>
       </> 
