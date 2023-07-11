@@ -10,9 +10,10 @@ import profile from "../img/arquivos/Profiles.pdf"
 
 const Sidebar = () => {
 
+
   return (
     <aside id="sidebar">
-      <img src={Avatar} alt="Matheus Battisti" />
+      <img src={Avatar} className="profileimg" alt="João Pedro" />
       <p className="title">Web-Developer</p>
       <SocialNetworkContainer />
       <InformationContainer />
@@ -29,7 +30,10 @@ const Sidebar = () => {
 
     <h2 id="AboutMe">Meu primeiro Job: </h2>
       <iframe id="videojptec" width="500" height="315" src="https://www.youtube.com/embed/tZflWQKvyJw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+      
+      
+      
+      <img src="src\img\react.png"  className="reactsimble" alt="" />
 
     </aside>
   );
