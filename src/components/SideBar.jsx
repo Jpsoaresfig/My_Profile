@@ -33,8 +33,7 @@ const Sidebar = () => {
 
 
 
-      <img src="src\img\react.png" className="reactsimble" alt="" />
-
+      
     </aside>
   );
 };

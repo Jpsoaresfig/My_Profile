@@ -2,4 +2,30 @@
 @use '../mixins'
 
 .bton
-    @include mixins.btn
+  @include mixins.btn
+  margin-top: 2rem
+
+.project1, .project2, .project3
+  width: 400px
+  height: 200px
+  margin-bottom: 2rem
+  margin-right: 1rem
+  transition: transform 0.3s
+  align-content: center
+
+.project1:last-child, .project2:last-child, .project3:last-child
+  margin-right: 0
+
+.project-container
+  display: flex
+  flex-wrap: wrap
+  align-items: flex-start
+
+.texto1, .texto2, .texto3
+  text-align: start
+  margin-top: -2rem
+  margin-left: -0.8rem
+
+.titup1, .titup2, .titup3
+    color: white
+  
