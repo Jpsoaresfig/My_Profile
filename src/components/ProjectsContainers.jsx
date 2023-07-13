@@ -31,7 +31,7 @@ const ProjectsContainer = () => {
       <p className='texto3'>Uma to do list para treinar HTML, CSS e JAVASCRIPT</p>
       <br />
 
-      <center><h2>Fim</h2></center>
+      <center><h2>Fim ;)</h2></center>
     </>
 
   );
