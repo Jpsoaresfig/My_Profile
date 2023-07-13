@@ -19,15 +19,15 @@ const ProjectsContainer = () => {
       <br />
       <br />
       <h3 className='titup1'>Página Discord</h3>
-      <img src="src\img\DiscordPage.png" className='project1' alt="" />
+      <img src="src\img\discordpage.png" className='project1' alt="" />
       <p className='texto1'>Uma página discord feita para treinar HTML e CSS</p>
       <br />
       <h3 className='titup2'>PhotoGallery</h3>
-      <img src="src\img\PhotoGallerry.png" className='project2' alt="" />
+      <img src="src\img\photogallery.png" className='project2' alt="" />
       <p className='texto2'>Uma página web que consome uma API e exibe as fotos usando react</p>
       <br />
       <h3 className='titup3'>To do List</h3>
-      <img src="src\img\ToDoList.png" className='project3' alt="" />
+      <img src="src\img\todolist.png" className='project3' alt="" />
       <p className='texto3'>Uma to do list para treinar HTML, CSS e JAVASCRIPT</p>
       <br />
 
