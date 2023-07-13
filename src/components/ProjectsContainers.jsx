@@ -1,6 +1,7 @@
-import projet1 from "../img/arquivos/discordpage.png"
-import projet2 from "../img/arquivos/photogallery.png"
-import projet3 from "../img/arquivos/todolist.png"
+import projet1 from "../img/discordpage.png";
+import projet2 from "../img/photogallery.png";
+import projet3 from "../img/todolist.png";
+
 
 import '../Styles/components/projectcontainer.sass';
 
