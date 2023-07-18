@@ -1,5 +1,5 @@
 import { DiHtml5, DiCss3, DiJsBadge, DiNodejsSmall, DiJava, DiReact } from "react-icons/di";
-import { FaPython, FaCode } from "react-icons/fa";
+import { FaPython, FaCode, FaDatabase } from "react-icons/fa"; // Importe o ícone FaDatabase
 
 import "../Styles/technologiecontainer.sass";
 
@@ -44,6 +44,11 @@ const technologies = [
     name: "C",
     icon: <FaCode />,
   },
+  {
+    id: "mysql", // ID da tecnologia MySQL
+    name: "MySQL", // Nome da tecnologia MySQL
+    icon: <FaDatabase />, // Ícone correspondente ao MySQL
+  },
 ];
 
 const TechnologiesContainer = () => {
@@ -64,3 +69,4 @@ const TechnologiesContainer = () => {
 };
 
 export default TechnologiesContainer;
+
