@@ -5,7 +5,7 @@ import Avatar from "../img/eu.png";
 
 import "../Styles/components/sidebar.sass";
 
-import profile from "../img/arquivos/Profiles.pdf";
+import profile from "../img/arquivos/Curriculo.pdf";
 
 
 
@@ -46,7 +46,7 @@ const Sidebar = () => {
         id="videojptec"
         width="500"
         height="315"
-        src="https://www.youtube.com/embed/tZflWQKvyJw"
+        src="https://www.youtube.com/watch?v=tZflWQKvyJw"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
