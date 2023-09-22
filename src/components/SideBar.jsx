@@ -5,7 +5,7 @@ import Avatar from "../img/eu.png";
 
 import "../Styles/components/sidebar.sass";
 
-import profile from "../img/arquivos/Curriculo.pdf";
+import profile from "../img/arquivos/curriculo.pdf";
 
 
 
