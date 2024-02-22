@@ -1,45 +1,44 @@
-# Meu Website
+<body>
 
-Este é o repositório do meu website pessoal. O website foi desenvolvido usando [Vercel](https://vercel.com/) e tem como objetivo apresentar informações sobre mim e meus projetos.
+<h1>My Website</h1>
 
-## Visão Geral
+<p>This is the repository for my personal website. The website was developed using Vercel and aims to provide information about me and my projects.</p>
 
-O meu website consiste em várias seções que destacam diferentes aspectos da minha vida profissional e pessoal. Aqui está um resumo das seções principais:
+<h2>Overview</h2>
+<p>My website consists of several sections that highlight different aspects of my professional and personal life. Here is a summary of the main sections:</p>
 
-- **Página Inicial**: Uma introdução breve e acolhedora, com uma visão geral das informações que podem ser encontradas no site.
+<ul>
+    <li><strong>Home Page:</strong> A brief and welcoming introduction, providing an overview of the information available on the site.</li>
+    <li><strong>About Me:</strong> A section dedicated to personal information, academic background, professional experience, and technical skills. It also includes a photo and a brief biography.</li>
+    <li><strong>Projects:</strong> In this section, I showcase some of the projects I have worked on. Each project is presented with a brief description, technologies used, and a link to access the project.</li>
+    <li><strong>Blog:</strong> A space to share articles, tutorials, and reflections on topics related to my field. Articles are organized by categories and can be easily accessed.</li>
+    <li><strong>Contact:</strong> Contact information for people to reach out to me. This includes a contact form as well as links to my social media accounts.</li>
+</ul>
 
-- **Sobre Mim**: Uma seção dedicada a informações pessoais, formação acadêmica, experiência profissional e habilidades técnicas. Também inclui uma foto e uma breve biografia.
+<h2>Hosting</h2>
+<p>My website is hosted on the Vercel platform. Vercel is a specialized hosting platform for static web applications and seamlessly integrates with GitHub repositories. This means that whenever I push to the main branch of this repository, Vercel will automatically rebuild and deploy the latest version of the site.</p>
+<p><a href="https://my-profile-hazel-one.vercel.app" target="_blank">https://my-profile-hazel-one.vercel.app</a></p>
 
-- **Projetos**: Nesta seção, destaco alguns dos projetos em que trabalhei. Cada projeto é apresentado com uma breve descrição, tecnologias utilizadas e um link para acessar o projeto.
+<h2>How to Run Locally</h2>
+<p>If you want to run a local version of this website, follow these steps:</p>
 
-- **Blog**: Um espaço para compartilhar artigos, tutoriais e reflexões sobre tópicos relacionados à minha área de atuação. Os artigos são organizados por categorias e podem ser facilmente acessados.
+<ol>
+    <li>Clone this repository to your local machine using the following command:</li>
+    <code>git clone https://github.com/your-username/repository-name.git</code>
 
-- **Contato**: Informações de contato para que as pessoas possam entrar em contato comigo. Isso inclui um formulário de contato, bem como links para minhas contas de mídia social.
+    <li>Navigate to the cloned directory:</li>
+    <code>cd repository-name</code>
 
-## Hospedagem
+    <li>Install the necessary dependencies:</li>
+    <code>npm install</code>
 
-O meu website está hospedado na plataforma Vercel. A Vercel é uma plataforma de hospedagem especializada para aplicativos da web estáticos e oferece uma integração perfeita com repositórios do GitHub. Isso significa que, sempre que eu fizer um push para a branch principal deste repositório, o Vercel irá automaticamente reconstruir e implantar a versão mais recente do site.
-https://my-profile-hazel-one.vercel.app
-## Como Executar Localmente
+    <li>Run the command to start the development server:</li>
+    <code>npm run dev</code>
 
-Se você deseja executar uma versão local deste website, siga estas etapas:
+    <li>Open your browser and access <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> to view the website running locally.</li>
+</ol>
 
-1. Clone este repositório em sua máquina local usando o seguinte comando:
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-2. Navegue até o diretório clonado:
- cd nome-do-repositorio
-4. Instale as dependências necessárias:
-  npm install
-6. Execute o comando para iniciar o servidor de desenvolvimento:
-   npm run dev
+<h2>Contribution</h2>
+<p>If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. I'll be happy to review your contributions.</p>
 
-5. Abra o seu navegador e acesse `http://localhost:3000` para visualizar o website em execução localmente.
-
-## Contribuição
-
-Se você encontrar algum problema ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*. Ficarei feliz em analisar suas contribuições.
-
-
-
-
-
+</body>
