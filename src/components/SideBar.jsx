@@ -46,7 +46,7 @@ const Sidebar = () => {
         id="videojptec"
         width="500"
         height="315"
-        src="https://www.youtube.com/watch?v=tZflWQKvyJw"
+        src="https://youtu.be/tZflWQKvyJw?si=C9cNjMD2Nfis5fa9"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
