@@ -5,60 +5,55 @@ import Avatar from "../img/eu.png";
 
 import "../Styles/components/sidebar.sass";
 
-import profile from "../img/arquivos/curriculo_numero_novo.pdf";
-
-
+import profile from "../img/arquivos/curriculo.pdf";
 
 const Sidebar = () => {
-  
-
-
   return (
     <aside id="sidebar">
       <img src={Avatar} className="profileimg" alt="João Pedro" />
-      <p className="title">Web-Developer</p>
+      <p className="title">Software Engineer</p>
       <SocialNetworkContainer />
       <InformationContainer />
       <a href={profile} target="_blank" className="btn" rel="noreferrer">
-        Download currículo
+        Download CV
       </a>
 
-      <h2 id="AboutMe">Sobre mim</h2>
+      <h2 id="AboutMe">About Me</h2>
       <p>
-        Sendo um nativo digital, desde a infância já nutria interesse por esse tema. Cheguei a
-        criar um canal no YouTube com meu pai, que é publicitário, chamado JPTec.{' '}
+        As a digital native, I&apos;ve had an interest in this area since childhood. I even
+        created a YouTube channel with my father, who is an advertising professional, called JPTec.
       </p>
       <p>
-        Acredito que essa experiência tenha me influenciado significativamente na escolha da minha
-        graduação.
+        I believe this experience significantly influenced my choice of
+        undergraduate studies.
       </p>
       <p>
-        Ao estudar Ciência da Computação, percebo que estou trilhando o caminho certo. Desfruto do
-        que estudo e faço, o que me proporciona um crescimento contínuo.
+        While studying Computer Science, I realize I&apos;m on the right path. I enjoy
+        what I study and do, which provides me with continuous growth.
       </p>
       <p>
-        Estou determinado a expandir meus conhecimentos e fazer parte das inovações, maximizando
-        minha experiência por meio de oportunidades de aprendizado de alto impacto.
+        I am determined to expand my knowledge and be part of innovations, maximizing
+        my experience through high-impact learning opportunities.
       </p>
 
-      <h2 id="AboutMe">Uma curiosidade</h2> 
+      <h2 id="AboutMe">A Curiosity</h2>
       <iframe
         id="videojptec"
         width="500"
         height="315"
-        src="https://youtu.be/tZflWQKvyJw?si=C9cNjMD2Nfis5fa9"
+        src="https://youtu.be/tZflWQKvyJw?si=J0YhbBDwI-I5sRpo"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
       ></iframe>
       <div className="contact-section">
-        <h2>Entre em contato</h2>
-        <input type="email" id="email" placeholder="Seu email" />
+        <h2>Get in Touch</h2>
+        <input type="email" id="email" placeholder="Your email" />
         <br />
-        <input type="text" id="message" placeholder="Sua mensagem" />
+        <input type="text" id="message" placeholder="Your message" />
         <br />
-        <button >Enviar</button>
+        <button>Send</button>
       </div>
     </aside>
   );

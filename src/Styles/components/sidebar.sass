@@ -1,7 +1,7 @@
 @use '../variables'
 @use '../mixins'
 #sidebar
-    background-color: variables.$bg-color
+    background-color: #1a1919
     flex: 1 1 0
     border-radius: variables.$card-border-radius
     display: flex
@@ -25,7 +25,17 @@
         padding: .9rem 1.6rem
 
     .btn
-        @include mixins.btn
+        background-color: black
+        color: variables.$text-color
+        padding: 0.7rem 1.2rem
+        border-radius: variables.$card-border-radius
+        text-decoration: none
+        display: inline-block
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out
+
+        &:hover
+            background-color: darken(#007bff, 10%)
+            color: white
 
 #AboutMe
     padding: 2rem

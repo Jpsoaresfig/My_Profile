@@ -2,72 +2,84 @@
 @use '../Styles/mixins'
 
 .technologies-container
-    margin-bottom: 1rem
+  margin-bottom: 2rem
+  padding: 2rem 1rem
+  text-align: center
 
-    .technologies-grid
-        display: flex
-        flex-wrap: wrap
-        gap: 1.5rem
-        justify-content: start
+.technologies-container h2
+  font-size: 2.5rem
+  margin-bottom: 2rem
+  color: variables.$text-color
 
-    .technology-card
-        @include mixins.center
-        display: flex
-        flex-direction: column
-        align-items: center
-        justify-content: center
-        gap: 2rem
-        padding: 1.5rem
-        border: 3px solid #333
-        width: calc(33.33% - 1.5rem)
-        height: 170px
-        border-radius: variables.$card-border-radius
-        text-align: center
-        transition: transform 0.3s ease-in-out
+.technologies-grid
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
+  gap: 1.5rem
+  justify-content: center
 
-        h3
-            color: variables.$text-color
-            margin-bottom: 1rem
+.technology-card-link
+  text-decoration: none
+  color: inherit
+  display: block
+  border-radius: variables.$card-border-radius
+  overflow: hidden
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out
 
-        svg
-            font-size: 5rem
+  &:hover
+    transform: translateY(-5px)
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2)
 
-        &:hover
-            transform: scale(1.1)
+.technology-card
+  @include mixins.center
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  gap: 1rem
+  padding: 1.5rem
+  background-color: #1e212a
+  border: none
+  width: 100%
+  height: 150px
+  border-radius: variables.$card-border-radius
+  text-align: center
 
-    #html
-        svg
-            color: #E44D26
+.technology-card h3
+  color: variables.$text-color
+  margin-bottom: 0.5rem
+  font-size: 1.2rem
 
-    #css
-        svg
-            color: #1572B6
+.technology-card svg
+  font-size: 3rem
 
-    #js
-        svg
-            color: #F0DB4F
+#html svg
+  color: #E44D26
 
-    #node
-        svg
-            color: #83CD29
+#css svg
+  color: #1572B6
 
-    #java
-        svg
-            color: #00b3ff
+#js svg
+  color: #F0DB4F
 
-    #python
-        svg
-            color: #3776AB
+#node svg
+  color: #83CD29
 
-    #c
-        svg
-            color: #A8B9CC
-            order: 2
+#java svg
+  color: #00b3ff
 
-    #reactjs
-        svg
-            color: variables.$reactcolor
-            
-    #mysql
-        svg
-            color: #4479A1
+#python svg
+  color: #3776AB
+
+#c svg
+  color: #A8B9CC
+  order: 2
+
+#reactjs svg
+  color: variables.$reactcolor
+
+#mysql svg
+  color: #4479A1
+
+#springboot svg
+  font-size: 3rem
