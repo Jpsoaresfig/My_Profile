@@ -93,7 +93,7 @@ export default function HeroSection({ particleProgressRef, cameraStateRef, onTun
       />
 
       {/* Corner tag */}
-      <div className="hero-fade absolute top-8 left-1/2 -translate-x-1/2 font-mono text-xs text-white/30 tracking-[0.4em]">
+      <div className="hero-fade absolute top-24 md:top-28 left-1/2 -translate-x-1/2 font-mono text-[10px] md:text-xs text-white/30 tracking-[0.4em] whitespace-nowrap">
         PORTFÓLIO — 2026
       </div>
 
