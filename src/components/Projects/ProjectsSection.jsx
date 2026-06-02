@@ -224,16 +224,16 @@ export default function ProjectsSection({ cameraStateRef }) {
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-screen py-20 px-6 md:px-20 section-wrap flex flex-col items-center text-center"
+      className="relative min-h-screen py-24 md:py-32 px-6 md:px-20 section-wrap flex flex-col items-center text-center"
     >
       {/* Label */}
-      <div className="flex items-center justify-center gap-4 mb-6">
+      <div className="flex items-center justify-center gap-4 mb-8">
         <div className="w-12 h-px bg-orange-glow" />
         <span className="font-mono text-xs text-white/30 tracking-widest uppercase">Projetos</span>
         <div className="w-12 h-px bg-orange-glow" />
       </div>
 
-      <div className="flex flex-col items-center mb-6 gap-4">
+      <div className="flex flex-col items-center mb-6 gap-5">
         <h2
           ref={headingRef}
           className="font-gothic text-white"
@@ -255,8 +255,8 @@ export default function ProjectsSection({ cameraStateRef }) {
       </div>
 
       {/* Academic & practice projects */}
-      <div className="mt-24 w-full max-w-5xl mx-auto text-left">
-        <div className="flex items-center gap-4 mb-8">
+      <div className="mt-32 w-full max-w-5xl mx-auto text-left">
+        <div className="flex items-center gap-4 mb-12">
           <div className="h-px flex-1 bg-white/10" />
           <span className="font-mono text-xs text-white/30 tracking-widest uppercase">Práticas & Acadêmicos</span>
           <div className="h-px flex-1 bg-white/10" />

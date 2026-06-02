@@ -90,8 +90,8 @@ function ExperienceCard({ exp }) {
       <span className="absolute left-0 top-2 w-3 h-3 rounded-full bg-orange-glow" style={{ boxShadow: '0 0 12px rgba(255,107,0,0.7)' }} />
       <span className="absolute left-[5px] top-6 bottom-0 w-px bg-white/10" />
 
-      <div className="glass rounded-lg p-6 md:p-8">
-        <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1 mb-4">
+      <div className="glass rounded-xl p-8 md:p-10">
+        <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-6">
           <div>
             <h3 className="font-gothic text-white" style={{ fontSize: 'clamp(1.5rem, 3vw, 2.2rem)', letterSpacing: '0.02em' }}>
               {exp.company}
@@ -104,7 +104,7 @@ function ExperienceCard({ exp }) {
           </div>
         </div>
 
-        <ul className="space-y-3">
+        <ul className="space-y-4">
           {exp.bullets.map((b, i) => (
             <li key={i} className="flex gap-3 text-white/55 text-sm leading-relaxed font-light">
               <span className="text-orange-glow/70 mt-1 shrink-0">▸</span>
@@ -114,9 +114,9 @@ function ExperienceCard({ exp }) {
         </ul>
 
         {exp.stack && exp.stack.length > 0 && (
-          <div className="mt-5 flex flex-wrap gap-2">
+          <div className="mt-7 flex flex-wrap gap-2.5">
             {exp.stack.map(s => (
-              <span key={s} className="font-mono text-[11px] px-2.5 py-1 rounded border text-white/40 border-white/10">
+              <span key={s} className="font-mono text-[11px] px-3 py-1.5 rounded border text-white/40 border-white/10">
                 {s}
               </span>
             ))}
@@ -158,9 +158,9 @@ export default function ExperienceSection({ cameraStateRef }) {
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-screen py-20 px-6 md:px-20 section-wrap flex flex-col items-center text-center"
+      className="relative min-h-screen py-24 md:py-32 px-6 md:px-20 section-wrap flex flex-col items-center text-center"
     >
-      <div className="flex items-center justify-center gap-4 mb-6">
+      <div className="flex items-center justify-center gap-4 mb-8">
         <div className="w-12 h-px bg-orange-glow" />
         <span className="font-mono text-xs text-white/30 tracking-widest uppercase">Experiência</span>
         <div className="w-12 h-px bg-orange-glow" />
@@ -174,7 +174,7 @@ export default function ExperienceSection({ cameraStateRef }) {
         A <span className="text-glow">JORNADA</span>
       </h2>
 
-      <div className="flex flex-col gap-12 max-w-4xl w-full mx-auto text-left">
+      <div className="flex flex-col gap-16 max-w-4xl w-full mx-auto text-left">
         {EXPERIENCES.map(exp => (
           <ExperienceCard key={exp.company} exp={exp} />
         ))}

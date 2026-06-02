@@ -41,10 +41,10 @@ function Card({ rec, index }) {
   }, [index])
 
   return (
-    <div ref={ref} className="glass rounded-xl p-8 flex flex-col text-left h-full" style={{ opacity: 0 }}>
+    <div ref={ref} className="glass rounded-xl p-8 md:p-10 flex flex-col text-left h-full" style={{ opacity: 0 }}>
       <span className="font-gothic text-orange-glow/40 leading-none" style={{ fontSize: '3.5rem' }}>“</span>
-      <p className="text-white/60 text-sm leading-relaxed font-light -mt-4 flex-1">{rec.text}</p>
-      <div className="mt-6 pt-5 border-t border-white/10">
+      <p className="text-white/60 text-sm leading-relaxed font-light -mt-3 flex-1">{rec.text}</p>
+      <div className="mt-8 pt-6 border-t border-white/10">
         <p className="font-gothic text-white text-xl">{rec.name}</p>
         <p className="font-mono text-[11px] text-orange-glow/80 tracking-wide mt-1">{rec.role}</p>
         <p className="font-mono text-[11px] text-white/30 mt-1">{rec.note}</p>
@@ -83,9 +83,9 @@ export default function RecommendationsSection({ cameraStateRef }) {
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-screen py-20 px-6 md:px-20 section-wrap flex flex-col items-center justify-center text-center"
+      className="relative min-h-screen py-24 md:py-32 px-6 md:px-20 section-wrap flex flex-col items-center justify-center text-center"
     >
-      <div className="flex items-center justify-center gap-4 mb-6">
+      <div className="flex items-center justify-center gap-4 mb-8">
         <div className="w-12 h-px bg-orange-glow" />
         <span className="font-mono text-xs text-white/30 tracking-widest uppercase">Recomendações</span>
         <div className="w-12 h-px bg-orange-glow" />
@@ -93,13 +93,13 @@ export default function RecommendationsSection({ cameraStateRef }) {
 
       <h2
         ref={headingRef}
-        className="font-gothic text-white mb-16"
+        className="font-gothic text-white mb-20"
         style={{ fontSize: 'clamp(3rem, 8vw, 8rem)', lineHeight: 1, letterSpacing: '-0.02em', opacity: 0 }}
       >
         O QUE <span className="text-glow">DIZEM</span>
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl w-full mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl w-full mx-auto">
         {RECOMMENDATIONS.map((rec, i) => (
           <Card key={rec.name} rec={rec} index={i} />
         ))}

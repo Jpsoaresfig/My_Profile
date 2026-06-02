@@ -66,9 +66,9 @@ export default function AboutSection({ cameraStateRef }) {
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-screen py-20 px-6 md:px-20 section-wrap flex flex-col items-center text-center"
+      className="relative min-h-screen py-24 md:py-32 px-6 md:px-20 section-wrap flex flex-col items-center text-center"
     >
-      <div className="flex items-center justify-center gap-4 mb-6">
+      <div className="flex items-center justify-center gap-4 mb-8">
         <div className="w-12 h-px bg-orange-glow" />
         <span className="font-mono text-xs text-white/30 tracking-widest uppercase">Sobre</span>
         <div className="w-12 h-px bg-orange-glow" />
@@ -76,14 +76,14 @@ export default function AboutSection({ cameraStateRef }) {
 
       <h2
         ref={headingRef}
-        className="font-gothic text-white mb-12"
+        className="font-gothic text-white mb-16"
         style={{ fontSize: 'clamp(3rem, 8vw, 8rem)', lineHeight: 1, letterSpacing: '-0.02em', opacity: 0 }}
       >
         QUEM <span className="text-glow">EU SOU</span>
       </h2>
 
       {/* Bio */}
-      <div className="max-w-3xl mx-auto space-y-6 mb-24">
+      <div className="max-w-3xl mx-auto space-y-8 mb-28">
         <Reveal>
           <p className="text-white/70 text-lg md:text-2xl leading-relaxed font-light">
             Sou <span className="text-white">João Pedro Soares</span>, desenvolvedor

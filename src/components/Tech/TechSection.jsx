@@ -112,9 +112,9 @@ export default function TechSection({ orbitalVisRef, cameraStateRef }) {
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-screen py-20 px-6 md:px-20 section-wrap flex flex-col items-center text-center"
+      className="relative min-h-screen py-24 md:py-32 px-6 md:px-20 section-wrap flex flex-col items-center text-center"
     >
-      <div className="flex items-center justify-center gap-4 mb-6">
+      <div className="flex items-center justify-center gap-4 mb-8">
         <div className="w-12 h-px bg-orange-glow" />
         <span className="font-mono text-xs text-white/30 tracking-widest uppercase">Tecnologias</span>
         <div className="w-12 h-px bg-orange-glow" />
