@@ -1,5 +1,4 @@
-import { useRef, useState, useEffect, lazy, Suspense } from 'react'
-import * as THREE from 'three'
+import { useEffect } from 'react'
 
 import { initSmoothScroll, destroySmoothScroll } from './lib/smoothScroll'
 import HeroSection from './components/Hero/HeroSection'
@@ -13,87 +12,64 @@ import Navbar from './components/shared/Navbar'
 import ScrollProgress from './components/shared/ScrollProgress'
 import CustomCursor from './components/shared/CustomCursor'
 import ShootingStars from './components/shared/ShootingStars'
-import Loader from './components/shared/Loader'
-
-// Heavy Three.js / postprocessing bundle is split out and loaded after first paint.
-const Scene = lazy(() => import('./components/Scene'))
+import Starfield from './components/shared/Starfield'
+import I18nProvider from './i18n/I18nProvider'
+import { useI18n } from './i18n/context'
 
 export default function App() {
-  const [, setLoaded] = useState(false)
+  return (
+    <I18nProvider>
+      <Page />
+    </I18nProvider>
+  )
+}
 
-  // Lenis smooth scroll, synced to GSAP's ticker so ScrollTrigger stays accurate.
+function Page() {
+  const { t } = useI18n()
+
   useEffect(() => {
     initSmoothScroll()
     return () => destroySmoothScroll()
   }, [])
 
-  // Shared refs driving the 3D scene
-  const particleProgressRef = useRef(0)
-  const orbitalVisRef = useRef(0)
-  const constellationVisRef = useRef(0)
-  const cameraStateRef = useRef({
-    position: new THREE.Vector3(0, 0, 7),
-    target: new THREE.Vector3(0, 0, 0),
-  })
-
   return (
     <>
-      {/* Loading screen */}
-      <Loader onComplete={() => setLoaded(true)} />
+      <a href="#main" className="skip-link">
+        {t.nav.skip}
+      </a>
 
-      {/* Noise film grain */}
-      <div className="noise-overlay" />
-
-      {/* Fixed 3D starfield behind everything (lazy-loaded) */}
-      <Suspense fallback={null}>
-        <Scene cameraStateRef={cameraStateRef} />
-      </Suspense>
-
-      {/* Subtle shooting stars */}
+      {/* Background layers */}
+      <Starfield />
       <ShootingStars />
+      <div className="vignette" aria-hidden="true" />
+      <div className="noise-overlay" aria-hidden="true" />
 
       {/* UI chrome */}
       <CustomCursor />
       <ScrollProgress />
       <Navbar />
 
-      {/* Scrollable content on top of canvas — narrative order */}
-      <main>
+      <main id="main" tabIndex={-1}>
         <div id="hero">
-          <HeroSection
-            particleProgressRef={particleProgressRef}
-            cameraStateRef={cameraStateRef}
-          />
+          <HeroSection />
         </div>
-
         <div id="about">
-          <AboutSection cameraStateRef={cameraStateRef} />
+          <AboutSection />
         </div>
-
         <div id="experience">
-          <ExperienceSection cameraStateRef={cameraStateRef} />
+          <ExperienceSection />
         </div>
-
         <div id="tech">
-          <TechSection
-            orbitalVisRef={orbitalVisRef}
-            cameraStateRef={cameraStateRef}
-          />
+          <TechSection />
         </div>
-
         <div id="projects">
-          <ProjectsSection cameraStateRef={cameraStateRef} />
+          <ProjectsSection />
         </div>
-
         <div id="recommendations">
-          <RecommendationsSection cameraStateRef={cameraStateRef} />
+          <RecommendationsSection />
         </div>
-
         <div id="connect">
-          <ConnectSection
-            constellationVisRef={constellationVisRef}
-            cameraStateRef={cameraStateRef}
-          />
+          <ConnectSection />
         </div>
       </main>
     </>

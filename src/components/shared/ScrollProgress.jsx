@@ -1,23 +1,28 @@
 import { useEffect, useRef } from 'react'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-
-gsap.registerPlugin(ScrollTrigger)
 
 export default function ScrollProgress() {
-  const barRef = useRef()
+  const barRef = useRef(null)
 
   useEffect(() => {
-    ScrollTrigger.create({
-      start: 0,
-      end: 'max',
-      onUpdate: (self) => {
-        if (barRef.current) {
-          gsap.set(barRef.current, { scaleX: self.progress })
-        }
-      },
-    })
+    let raf = 0
+    const update = () => {
+      raf = 0
+      const max = document.documentElement.scrollHeight - window.innerHeight
+      const p = max > 0 ? Math.min(window.scrollY / max, 1) : 0
+      if (barRef.current) barRef.current.style.transform = `scaleX(${p})`
+    }
+    const onScroll = () => {
+      if (!raf) raf = requestAnimationFrame(update)
+    }
+    update()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    window.addEventListener('resize', onScroll, { passive: true })
+    return () => {
+      cancelAnimationFrame(raf)
+      window.removeEventListener('scroll', onScroll)
+      window.removeEventListener('resize', onScroll)
+    }
   }, [])
 
-  return <div ref={barRef} className="scroll-indicator" />
+  return <div ref={barRef} className="scroll-indicator" aria-hidden="true" />
 }

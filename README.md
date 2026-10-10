@@ -1,44 +1,54 @@
-<body>
+# João Pedro Soares · Portfólio
 
-<h1>My Website</h1>
+Portfólio pessoal de **João Pedro Soares**, engenheiro de software full stack (Java, Spring Boot, React, React Native e Node).
 
-<p>This is the repository for my personal website. The website was developed using Vercel and aims to provide information about me and my projects.</p>
+🔗 **Ao vivo:** https://my-profile-hazel-one.vercel.app
+🌐 Disponível em **português**, **inglês** e **espanhol** (`?lang=pt`, `?lang=en`, `?lang=es`).
 
-<h2>Overview</h2>
-<p>My website consists of several sections that highlight different aspects of my professional and personal life. Here is a summary of the main sections:</p>
+## Destaques técnicos
 
-<ul>
-    <li><strong>Home Page:</strong> A brief and welcoming introduction, providing an overview of the information available on the site.</li>
-    <li><strong>About Me:</strong> A section dedicated to personal information, academic background, professional experience, and technical skills. It also includes a photo and a brief biography.</li>
-    <li><strong>Projects:</strong> In this section, I showcase some of the projects I have worked on. Each project is presented with a brief description, technologies used, and a link to access the project.</li>
-    <li><strong>Blog:</strong> A space to share articles, tutorials, and reflections on topics related to my field. Articles are organized by categories and can be easily accessed.</li>
-    <li><strong>Contact:</strong> Contact information for people to reach out to me. This includes a contact form as well as links to my social media accounts.</li>
-</ul>
+- **Starfield em WebGL puro**, escrito à mão (sem three.js): um único draw call, câmera que viaja entre as seções conforme o scroll, quantidade de estrelas e FPS adaptados ao aparelho, pausa com a aba oculta e fallback quando não há WebGL.
+- **Leve:** ~70 KB de JavaScript inicial (gzip). O starfield (~3 KB) e o smooth scroll (~5 KB) carregam sob demanda, depois do primeiro paint.
+- **Feito para celular:** sem `backdrop-filter` sobre o canvas animado, rolagem nativa no toque, alvos de toque com 44px ou mais e layout testado de 360px a 1440px sem overflow horizontal.
+- **i18n sem bibliotecas:** detecta o idioma do navegador, aceita `?lang=` para links diretos, lembra a escolha do visitante e atualiza `<html lang>`, título e meta description.
+- **Acessibilidade:** HTML semântico, skip link, foco visível, menu mobile com Esc e gestão de foco, contraste AA e respeito a `prefers-reduced-motion`.
+- **Para recrutadores:** CV em PDF para download, resultados-chave em destaque nas principais experiências e imagem de compartilhamento própria para LinkedIn e WhatsApp.
+- **SEO:** meta tags, Open Graph com imagem 1200×630 e dados estruturados (JSON-LD `Person`).
+- **Analytics sem cookies** (Vercel Web Analytics): visitas, origem e país, sem banner de consentimento. Eventos de download do CV, troca de idioma e cópia de e-mail.
+- **Deploy na Vercel** com cache imutável para os assets e headers de segurança (`vercel.json`).
 
-<h2>Hosting</h2>
-<p>My website is hosted on the Vercel platform. Vercel is a specialized hosting platform for static web applications and seamlessly integrates with GitHub repositories. This means that whenever I push to the main branch of this repository, Vercel will automatically rebuild and deploy the latest version of the site.</p>
-<p><a href="https://my-profile-hazel-one.vercel.app" target="_blank">https://my-profile-hazel-one.vercel.app</a></p>
+## Stack
 
-<h2>How to Run Locally</h2>
-<p>If you want to run a local version of this website, follow these steps:</p>
+React 18 · Vite 5 · Tailwind CSS 4 · WebGL · Lenis
 
-<ol>
-    <li>Clone this repository to your local machine using the following command:</li>
-    <code>git clone https://github.com/your-username/repository-name.git</code>
+## Estrutura
 
-    <li>Navigate to the cloned directory:</li>
-    <code>cd repository-name</code>
+```
+public/
+  cv/              currículo em PDF
+  og-image.jpg     imagem de compartilhamento
+src/
+  components/       seções da página e componentes compartilhados
+  data/profile.js   dados independentes de idioma (links, stacks, cores)
+  i18n/             provider, detecção de idioma e textos (pt, en, es)
+  lib/starfield.js  renderer WebGL do fundo
+  lib/smoothScroll.js
+```
 
-    <li>Install the necessary dependencies:</li>
-    <code>npm install</code>
+Para editar textos, altere `src/i18n/locales/*.jsx`. Para links, stacks e projetos, `src/data/profile.js`.
 
-    <li>Run the command to start the development server:</li>
-    <code>npm run dev</code>
+## Rodando localmente
 
-    <li>Open your browser and access <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> to view the website running locally.</li>
-</ol>
+Requer Node.js 20 ou superior (o deploy usa Node 24).
 
-<h2>Contribution</h2>
-<p>If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. I'll be happy to review your contributions.</p>
+```bash
+npm install
+npm run dev      # http://localhost:5173
+npm run build    # build de produção em dist/
+npm run preview  # serve o build
+npm run lint
+```
 
-</body>
+## Contato
+
+[LinkedIn](https://linkedin.com/in/joaopedrosoaresfigueiredo) · [GitHub](https://github.com/Jpsoaresfig) · jpbusinesss@hotmail.com
