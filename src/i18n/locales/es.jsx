@@ -6,7 +6,7 @@ const es = {
   meta: {
     title: 'João Pedro Soares | Ingeniero de Software Full Stack',
     description:
-      'Portafolio de João Pedro Soares, ingeniero de software full stack en João Pessoa, Brasil. Java, Spring Boot, React, React Native y Node: APIs, automatización y productos web y móviles en producción.',
+      'Portafolio de João Pedro Soares, ingeniero de software full stack en Granada, España. Java, Spring Boot, React, React Native y Node: APIs, automatización y productos web y móviles en producción.',
   },
   terms: { Redes: 'Redes', 'Suporte Técnico': 'Soporte Técnico' },
   common: {
@@ -22,6 +22,7 @@ const es = {
     open: 'Abrir menú',
     close: 'Cerrar menú',
     links: {
+      film: 'Vídeo',
       about: 'Sobre mí',
       experience: 'Experiencia',
       tech: 'Tecnologías',
@@ -41,15 +42,24 @@ const es = {
     stats: ['Años de experiencia', 'Empresas', 'Productos en línea'],
     scroll: 'Desplázate para explorar',
   },
+  film: {
+    label: 'Vídeo',
+    title: 'Del problema',
+    highlight: 'al software',
+    intro: 'Cinco minutos sobre cómo trabajo: ingeniería full stack, IA aplicada y automatización integradas en sistemas reales, y los resultados de los proyectos en los que participé. Elige un capítulo para ir directo a lo que te interesa.',
+    meta: 'Narración en inglés · subtítulos ES / PT / EN',
+    chaptersLabel: 'Capítulos del vídeo',
+    chapters: ['Introducción', 'Sobre mí', 'Cómo trabajo', 'Ingeniería full stack', 'Impacto real', 'IA y automatización', 'Proyectos', 'Trayectoria', 'Contacto'],
+  },
   about: {
     label: 'Sobre mí',
     title: 'Quién',
     highlight: 'soy',
     intro: (
       <>
-        Soy <strong className="text-white font-normal">João Pedro Soares</strong>, desarrollador full stack{' '}
-        <span className="text-orange-bright">semi-senior</span> brasileño, nacido en Natal, formado en João Pessoa y
-        actualmente residente en <span className="text-white">Granada, España</span>.
+        Soy <strong className="text-white font-normal">João Pedro Soares</strong>, ingeniero de software full stack
+        brasileño con <span className="text-orange-bright">más de 3 años de experiencia</span>, nacido en Natal, formado en
+        João Pessoa y actualmente residente en <span className="text-white">Granada, España</span>.
       </>
     ),
     bio: 'Construyo sistemas de punta a punta: arquitectura, back-end, automatización e integración, con foco en eficiencia, automatización de procesos y transformación digital. Mi experiencia abarca Java, Spring Boot, Oracle APEX, UiPath, PHP y tecnologías modernas de front-end. He entregado soluciones de alto impacto para el sector público y financiero, siempre con código limpio, escalabilidad y seguridad de la información (LGPD, la ley brasileña de protección de datos). Me apasiona aprender rápido y construir sistemas confiables que generan valor real.',
@@ -63,8 +73,8 @@ const es = {
         desc: 'Enfoque en desarrollo de software, análisis de sistemas, bases de datos, algoritmos, redes y telecomunicaciones. Experiencia práctica en ingeniería full stack con Java, Spring Boot, React, JavaScript, APIs REST y bases de datos relacionales, además de arquitectura de software, ciberseguridad e inteligencia artificial.',
       },
       {
-        tag: 'MBA · En curso',
-        title: 'Máster en Administración de Empresas',
+        tag: 'Máster · En curso',
+        title: 'Máster Universitario en Gestión y Tecnologías de Procesos de Negocio',
         place: 'Universidad de Granada, España',
         detail: 'Sep 2026 - Sep 2027',
         desc: 'Máster en la intersección entre tecnología y negocio, con énfasis en gestión de procesos de negocio (BPM), transformación digital, sistemas empresariales, optimización de procesos y uso de la tecnología para resolver desafíos organizacionales complejos.',

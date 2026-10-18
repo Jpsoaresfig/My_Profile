@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Video production (heavy intermediates; the site uses public/video)
+video/producao/build/
+video/producao/__pycache__/
+video/entrega/*.mp4
+# briefing and reference images the render does not use
+video/video.txt
+video/meuportifolioweb.png
+video/tcc.jpeg

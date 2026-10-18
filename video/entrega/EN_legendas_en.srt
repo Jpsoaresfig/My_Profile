@@ -1,0 +1,360 @@
+1
+00:00:01,200 --> 00:00:03,496
+Every system starts with a problem.
+
+2
+00:00:03,796 --> 00:00:08,184
+The difference lies in how we understand
+it… and in what we can build from it.
+
+3
+00:00:12,384 --> 00:00:17,134
+I'm João Pedro Soares de Figueiredo,
+a full stack software engineer.
+
+4
+00:00:17,134 --> 00:00:22,059
+I'm Brazilian, with a degree in Computer
+Science from Centro Universitário UNIPÊ,
+
+5
+00:00:22,059 --> 00:00:27,046
+and more than three years of experience in
+software development, automation and IT
+
+6
+00:00:27,046 --> 00:00:28,032
+support.
+
+7
+00:00:28,032 --> 00:00:32,322
+Today I live in Granada, where I'm
+studying for a Master's degree in Business
+
+8
+00:00:32,322 --> 00:00:36,344
+Process Management and Technologies
+at the University of Granada.
+
+9
+00:00:36,344 --> 00:00:41,217
+That's the combination I care about:
+software engineering and business processes,
+
+10
+00:00:41,217 --> 00:00:42,840
+working together.
+
+11
+00:00:43,240 --> 00:00:45,518
+The way I work starts from a simple idea:
+
+12
+00:00:45,518 --> 00:00:48,307
+understand the problem before writing code.
+
+13
+00:00:48,307 --> 00:00:53,730
+I look for the right solution, model the
+data and components, implement, integrate
+
+14
+00:00:53,730 --> 00:00:56,246
+the services, test and optimize.
+
+15
+00:00:56,246 --> 00:00:58,470
+And at the end I ask one more question:
+
+16
+00:00:58,470 --> 00:01:01,694
+what changes in the operation once this works?
+
+17
+00:01:02,294 --> 00:01:04,905
+I've worked across different
+layers of a product.
+
+18
+00:01:04,905 --> 00:01:10,827
+On the back end, with Java and Spring
+Boot, Node.js, Python and PHP.
+
+19
+00:01:10,827 --> 00:01:15,367
+On the front end, with React,
+TypeScript and Next.js.
+
+20
+00:01:15,367 --> 00:01:19,666
+On the data side, with
+SQL, PostgreSQL and MySQL.
+
+21
+00:01:19,666 --> 00:01:24,896
+And in mobile and cross-platform apps
+with Capacitor, connected to REST APIs,
+
+22
+00:01:24,896 --> 00:01:27,602
+payments and external services.
+
+23
+00:01:27,702 --> 00:01:33,142
+At Ouse Passar I was the main developer of
+Código da Vida, an app for iOS, Android
+
+24
+00:01:33,142 --> 00:01:38,517
+and the web: from data modeling to the
+back end and the app store releases.
+
+25
+00:01:38,517 --> 00:01:41,236
+I also worked on the Ouse Passar platform:
+
+26
+00:01:41,236 --> 00:01:46,350
+payments and subscriptions with Hotmart
+and RevenueCat, VPS infrastructure with
+
+27
+00:01:46,350 --> 00:01:50,252
+Nginx, load balancing and
+SQL performance analysis.
+
+28
+00:01:50,652 --> 00:01:54,144
+But technology matters when it
+improves something concrete.
+
+29
+00:01:54,344 --> 00:02:00,058
+At Inovatec-JP I contributed to E-PROCON,
+the inspection system of PROCON in
+
+30
+00:02:00,058 --> 00:02:03,140
+Paraíba, built with Java and Spring Boot:
+
+31
+00:02:03,140 --> 00:02:08,577
+digital field inspections, no pen
+and paper, and automated reports.
+
+32
+00:02:08,577 --> 00:02:14,139
+The result reported by the project: around
+seventy percent less processing time.
+
+33
+00:02:15,139 --> 00:02:20,579
+A team effort, with attention to interoperability
+between public systems and to data
+
+34
+00:02:20,579 --> 00:02:23,186
+protection under Brazil's LGPD.
+
+35
+00:02:23,186 --> 00:02:28,576
+On SiCAPS, also for PROCON, I helped build
+digital price collection and real-time
+
+36
+00:02:28,576 --> 00:02:30,573
+geolocation tracking.
+
+37
+00:02:30,773 --> 00:02:35,902
+At Sicredi, as a development intern, I
+automated inactive-account management with
+
+38
+00:02:35,902 --> 00:02:41,061
+UiPath and Python, freeing up about
+ten percent of operational capacity.
+
+39
+00:02:41,661 --> 00:02:44,993
+And I modernized a legacy PHP PDF generator:
+
+40
+00:02:44,993 --> 00:02:48,697
+around five percent less processing time.
+
+41
+00:02:49,297 --> 00:02:53,194
+Improving what already exists,
+without rewriting everything:
+
+42
+00:02:53,194 --> 00:02:56,003
+find the bottleneck and act on it.
+
+43
+00:02:56,603 --> 00:02:59,277
+To me, artificial intelligence isn't magic:
+
+44
+00:02:59,277 --> 00:03:02,140
+it's one more component of the system.
+
+45
+00:03:02,140 --> 00:03:08,104
+At Ouse Passar I built agents with OpenAI
+and Gemini and automated workflows with
+
+46
+00:03:08,104 --> 00:03:12,949
+n8n, connected to data, the
+back end and external services.
+
+47
+00:03:12,949 --> 00:03:18,226
+Beyond that, I've built AI agents that
+automate complete workflows, assistants
+
+48
+00:03:18,226 --> 00:03:23,435
+powered by large language models, and
+image generation with Gemini, connected
+
+49
+00:03:23,435 --> 00:03:27,215
+through n8n and APIs to
+real data and products.
+
+50
+00:03:27,215 --> 00:03:30,783
+And at Sicredi, automation
+had a very concrete goal:
+
+51
+00:03:30,783 --> 00:03:35,225
+remove repetitive work and
+free up time for other tasks.
+
+52
+00:03:35,825 --> 00:03:38,392
+I also like comparing alternatives with data.
+
+53
+00:03:38,392 --> 00:03:43,684
+In my final degree project, together with
+my classmates, we compared Spring Boot and
+
+54
+00:03:43,684 --> 00:03:45,470
+Quarkus for Java APIs.
+
+55
+00:03:45,470 --> 00:03:51,725
+We deployed equivalent APIs on Kubernetes
+and load-tested them with JMeter.
+
+56
+00:03:51,725 --> 00:03:55,896
+At idle, Spring Boot used
+about 271 MiB of memory;
+
+57
+00:03:55,896 --> 00:03:57,997
+Quarkus, about 21.
+
+58
+00:03:58,597 --> 00:04:03,337
+But Spring Boot delivered lower latency and
+higher throughput, while Quarkus handled
+
+59
+00:04:03,337 --> 00:04:07,907
+the load with fewer replicas. The right
+choice depends on the context and on what
+
+60
+00:04:07,907 --> 00:04:09,184
+you measure.
+
+61
+00:04:09,384 --> 00:04:12,123
+And I designed and built Shark Smokehouse:
+
+62
+00:04:12,123 --> 00:04:17,536
+an e-commerce and management platform for
+a shop and lounge in João Pessoa, already
+
+63
+00:04:17,536 --> 00:04:20,580
+in production with 61 registered users.
+
+64
+00:04:20,580 --> 00:04:26,640
+Next.js, React, TypeScript, Firebase and
+Mercado Pago, with a transactional checkout
+
+65
+00:04:26,640 --> 00:04:32,557
+on the server, PIX payments confirmed by
+signed webhooks, a loyalty program, point
+
+66
+00:04:32,557 --> 00:04:37,702
+of sale, marketing automations
+and automated tests with Vitest.
+
+67
+00:04:38,302 --> 00:04:40,388
+My path combines different layers.
+
+68
+00:04:40,388 --> 00:04:45,694
+At Dev Dynamos I worked on data modeling,
+Figma prototypes and documentation.
+
+69
+00:04:45,694 --> 00:04:48,412
+At Sicredi I worked in technical support:
+
+70
+00:04:48,412 --> 00:04:51,098
+networks, Windows and Linux servers.
+
+71
+00:04:51,098 --> 00:04:54,988
+And from there to development,
+automation and complete products.
+
+72
+00:04:54,988 --> 00:05:00,573
+That's why I know an application always
+lives inside a real technical environment.
+
+73
+00:05:00,573 --> 00:05:05,652
+Today, from Granada, I'm adding a
+business-process perspective to that experience.
+
+74
+00:05:05,652 --> 00:05:08,629
+I speak Portuguese, English and Spanish.
+
+75
+00:05:08,629 --> 00:05:13,528
+I like understanding how things work,
+turning ideas into real systems and learning
+
+76
+00:05:13,528 --> 00:05:17,713
+whatever it takes to solve
+problems across different layers.
+
+77
+00:05:18,513 --> 00:05:23,072
+If you have a technical challenge, a product
+to build or a process to improve, I'd
+
+78
+00:05:23,072 --> 00:05:24,895
+like to talk with you.

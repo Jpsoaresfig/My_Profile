@@ -89,7 +89,7 @@ export default function HeroSection() {
         </dl>
       </div>
 
-      <a href="#about" onClick={(e) => go(e, '#about')} className="intro scroll-hint" style={{ '--d': '700ms' }}>
+      <a href="#film" onClick={(e) => go(e, '#film')} className="intro scroll-hint" style={{ '--d': '700ms' }}>
         <span>{t.hero.scroll}</span>
         <ArrowDown />
       </a>

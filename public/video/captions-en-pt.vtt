@@ -1,0 +1,376 @@
+WEBVTT
+
+1
+00:00:01.200 --> 00:00:03.496
+Todo sistema começa com um problema.
+
+2
+00:00:03.796 --> 00:00:07.369
+A diferença está em como o entendemos… e
+no que somos capazes de construir a partir
+
+3
+00:00:07.369 --> 00:00:08.184
+dele.
+
+4
+00:00:12.384 --> 00:00:17.134
+Sou João Pedro Soares de Figueiredo,
+engenheiro de software full stack.
+
+5
+00:00:17.134 --> 00:00:21.955
+Sou brasileiro, formado em Ciência da
+Computação pelo Centro Universitário UNIPÊ, e
+
+6
+00:00:21.955 --> 00:00:26.719
+tenho mais de três anos de experiência em
+desenvolvimento de software, automação e
+
+7
+00:00:26.719 --> 00:00:28.032
+suporte de TI.
+
+8
+00:00:28.032 --> 00:00:33.597
+Hoje moro em Granada, onde curso o Mestrado
+em Gestão e Tecnologias de Processos de
+
+9
+00:00:33.597 --> 00:00:36.344
+Negócio da Universidade de Granada.
+
+10
+00:00:36.344 --> 00:00:41.097
+É a combinação que me interessa: engenharia
+de software e processos de negócio,
+
+11
+00:00:41.097 --> 00:00:42.840
+trabalhando juntos.
+
+12
+00:00:43.240 --> 00:00:45.742
+Minha forma de trabalhar
+parte de uma ideia simples:
+
+13
+00:00:45.742 --> 00:00:48.307
+entender o problema antes de escrever código.
+
+14
+00:00:48.307 --> 00:00:54.031
+Busco a solução adequada, modelo os dados
+e os componentes, implemento, integro os
+
+15
+00:00:54.031 --> 00:00:56.246
+serviços, testo e otimizo.
+
+16
+00:00:56.246 --> 00:01:01.694
+E no final faço mais uma pergunta: o que
+muda na operação quando isso funciona?
+
+17
+00:01:02.294 --> 00:01:04.905
+Já trabalhei em diferentes
+camadas de um produto.
+
+18
+00:01:04.905 --> 00:01:10.827
+No backend, com Java e Spring
+Boot, Node.js, Python e PHP.
+
+19
+00:01:10.827 --> 00:01:15.367
+No frontend, com React, TypeScript e Next.js.
+
+20
+00:01:15.367 --> 00:01:19.666
+Nos dados, com SQL, PostgreSQL e MySQL.
+
+21
+00:01:19.666 --> 00:01:24.935
+E em aplicações mobile e multiplataforma
+com Capacitor, conectadas a APIs REST,
+
+22
+00:01:24.935 --> 00:01:27.602
+pagamentos e serviços externos.
+
+23
+00:01:27.702 --> 00:01:33.071
+Na Ouse Passar, fui o desenvolvedor principal
+do Código da Vida, um aplicativo para
+
+24
+00:01:33.071 --> 00:01:38.517
+iOS, Android e web: da modelagem de dados
+ao backend e à publicação nas lojas.
+
+25
+00:01:38.517 --> 00:01:41.082
+E trabalhei na plataforma da Ouse Passar:
+
+26
+00:01:41.082 --> 00:01:46.274
+pagamentos e assinaturas com Hotmart e
+RevenueCat, infraestrutura em VPS com Nginx,
+
+27
+00:01:46.274 --> 00:01:50.252
+balanceamento de carga e
+análise de desempenho em SQL.
+
+28
+00:01:50.652 --> 00:01:54.144
+Mas a tecnologia tem valor
+quando melhora algo concreto.
+
+29
+00:01:54.344 --> 00:01:59.218
+Na Inovatec-JP, contribuí para o
+desenvolvimento do E-PROCON, o sistema de
+
+30
+00:01:59.218 --> 00:02:03.039
+fiscalização do PROCON da
+Paraíba, com Java e Spring Boot:
+
+31
+00:02:03.039 --> 00:02:08.577
+fiscalizações de campo digitais, sem
+papel e caneta, e relatórios automáticos.
+
+32
+00:02:08.577 --> 00:02:12.758
+O resultado informado no projeto: cerca
+de setenta por cento menos tempo de
+
+33
+00:02:12.758 --> 00:02:14.139
+processamento.
+
+34
+00:02:15.139 --> 00:02:20.422
+Um trabalho de equipe, com atenção à
+interoperabilidade entre sistemas públicos e à
+
+35
+00:02:20.422 --> 00:02:23.186
+proteção de dados conforme a LGPD.
+
+36
+00:02:23.186 --> 00:02:27.324
+No SiCAPS, também para o PROCON,
+colaborei na coleta digital de preços e no
+
+37
+00:02:27.324 --> 00:02:30.573
+acompanhamento por
+geolocalização em tempo real.
+
+38
+00:02:30.773 --> 00:02:35.500
+No Sicredi, como estagiário de desenvolvimento,
+automatizei com UiPath e Python a
+
+39
+00:02:35.500 --> 00:02:39.761
+gestão de contas inativas, liberando
+cerca de dez por cento de capacidade
+
+40
+00:02:39.761 --> 00:02:41.061
+operacional.
+
+41
+00:02:41.661 --> 00:02:44.586
+E modernizei um gerador de PDF legado em PHP:
+
+42
+00:02:44.586 --> 00:02:48.697
+cerca de cinco por cento
+menos tempo de processamento.
+
+43
+00:02:49.297 --> 00:02:52.681
+Melhorar o que já existe, sem reescrever tudo:
+
+44
+00:02:52.681 --> 00:02:56.003
+encontrar o gargalo e agir sobre ele.
+
+45
+00:02:56.603 --> 00:02:59.600
+Para mim, inteligência
+artificial não é mágica:
+
+46
+00:02:59.600 --> 00:03:02.140
+é mais um componente do sistema.
+
+47
+00:03:02.140 --> 00:03:08.372
+Na Ouse Passar, desenvolvi agentes com
+OpenAI e Gemini e fluxos automatizados com
+
+48
+00:03:08.372 --> 00:03:12.949
+n8n, conectados a dados,
+backend e serviços externos.
+
+49
+00:03:12.949 --> 00:03:18.401
+Além disso, criei agentes de IA que
+automatizam fluxos completos, assistentes
+
+50
+00:03:18.401 --> 00:03:24.349
+baseados em modelos de linguagem e geração
+de imagens com Gemini, conectados por n8n
+
+51
+00:03:24.349 --> 00:03:27.215
+e APIs a dados e produtos reais.
+
+52
+00:03:27.215 --> 00:03:30.828
+E no Sicredi, a automação tinha
+um objetivo muito concreto:
+
+53
+00:03:30.828 --> 00:03:35.225
+tirar trabalho repetitivo e
+liberar tempo para outras tarefas.
+
+54
+00:03:35.825 --> 00:03:38.392
+Também gosto de comparar
+alternativas com dados.
+
+55
+00:03:38.392 --> 00:03:43.120
+No meu trabalho de conclusão de curso,
+junto com meus colegas, comparamos Spring
+
+56
+00:03:43.120 --> 00:03:45.470
+Boot e Quarkus para APIs em Java.
+
+57
+00:03:45.470 --> 00:03:51.361
+Implantamos APIs equivalentes no Kubernetes
+e fizemos testes de carga com JMeter.
+
+58
+00:03:51.361 --> 00:03:55.724
+Em repouso, o Spring Boot usava
+cerca de 271 MiB de memória;
+
+59
+00:03:55.724 --> 00:03:57.997
+o Quarkus, cerca de 21.
+
+60
+00:03:58.597 --> 00:04:03.169
+Mas o Spring Boot teve menor latência
+e maior throughput, enquanto o Quarkus
+
+61
+00:04:03.169 --> 00:04:08.103
+sustentou a carga com menos réplicas. A
+escolha certa depende do contexto e do que
+
+62
+00:04:08.103 --> 00:04:09.184
+se mede.
+
+63
+00:04:09.384 --> 00:04:12.223
+E projetei e desenvolvi o Shark Smokehouse:
+
+64
+00:04:12.223 --> 00:04:17.637
+uma plataforma de e-commerce e gestão para
+uma loja e lounge em João Pessoa, já em
+
+65
+00:04:17.637 --> 00:04:20.580
+produção com 61 usuários cadastrados.
+
+66
+00:04:20.580 --> 00:04:26.450
+Next.js, React, TypeScript, Firebase e
+Mercado Pago, com checkout transacional no
+
+67
+00:04:26.450 --> 00:04:32.537
+servidor, pagamentos PIX confirmados por
+webhooks assinados, programa de fidelidade,
+
+68
+00:04:32.537 --> 00:04:37.702
+PDV, automações de marketing e
+testes automatizados com Vitest.
+
+69
+00:04:38.302 --> 00:04:40.388
+Minha trajetória combina camadas diferentes.
+
+70
+00:04:40.388 --> 00:04:44.619
+Na Dev Dynamos, trabalhei com modelagem
+de dados, protótipos no Figma e
+
+71
+00:04:44.619 --> 00:04:45.694
+documentação.
+
+72
+00:04:45.694 --> 00:04:48.453
+No Sicredi, passei pelo suporte técnico:
+
+73
+00:04:48.453 --> 00:04:51.098
+redes, servidores Windows e Linux.
+
+74
+00:04:51.098 --> 00:04:55.063
+E daí para o desenvolvimento, a
+automação e produtos completos.
+
+75
+00:04:55.063 --> 00:05:00.573
+Por isso sei que uma aplicação sempre
+vive dentro de um ambiente técnico real.
+
+76
+00:05:00.573 --> 00:05:05.772
+Hoje, de Granada, somo a essa experiência
+um olhar de processos de negócio.
+
+77
+00:05:05.772 --> 00:05:08.629
+Falo português, inglês e espanhol.
+
+78
+00:05:08.629 --> 00:05:13.267
+Gosto de entender como as coisas funcionam,
+transformar ideias em sistemas reais e
+
+79
+00:05:13.267 --> 00:05:17.713
+aprender o necessário para resolver
+problemas em diferentes camadas.
+
+80
+00:05:18.513 --> 00:05:22.192
+Se você tem um desafio técnico, um
+produto para construir ou um processo para
+
+81
+00:05:22.192 --> 00:05:24.895
+melhorar, eu gostaria de conversar com você.

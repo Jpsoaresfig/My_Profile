@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 
 import { initSmoothScroll, destroySmoothScroll } from './lib/smoothScroll'
 import HeroSection from './components/Hero/HeroSection'
+import FilmSection from './components/Film/FilmSection'
 import AboutSection from './components/About/AboutSection'
 import ExperienceSection from './components/Experience/ExperienceSection'
 import TechSection from './components/Tech/TechSection'
@@ -52,6 +53,9 @@ function Page() {
       <main id="main" tabIndex={-1}>
         <div id="hero">
           <HeroSection />
+        </div>
+        <div id="film">
+          <FilmSection />
         </div>
         <div id="about">
           <AboutSection />

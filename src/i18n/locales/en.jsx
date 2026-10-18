@@ -6,7 +6,7 @@ const en = {
   meta: {
     title: 'João Pedro Soares | Full Stack Software Engineer',
     description:
-      'Portfolio of João Pedro Soares, a full stack software engineer based in João Pessoa, Brazil. Java, Spring Boot, React, React Native and Node: APIs, automation and web and mobile products in production.',
+      'Portfolio of João Pedro Soares, a full stack software engineer based in Granada, Spain. Java, Spring Boot, React, React Native and Node: APIs, automation and web and mobile products in production.',
   },
   terms: { IA: 'AI', Redes: 'Networking', 'Suporte Técnico': 'Technical Support' },
   common: {
@@ -22,6 +22,7 @@ const en = {
     open: 'Open menu',
     close: 'Close menu',
     links: {
+      film: 'Film',
       about: 'About',
       experience: 'Experience',
       tech: 'Skills',
@@ -41,14 +42,23 @@ const en = {
     stats: ['Years of experience', 'Companies', 'Products live'],
     scroll: 'Scroll to explore',
   },
+  film: {
+    label: 'Film',
+    title: 'From problems',
+    highlight: 'to software',
+    intro: 'Five minutes on how I work: full stack engineering, applied AI and automation built into real systems, and the results of the projects I took part in. Pick a chapter to jump straight to what interests you.',
+    meta: 'English narration · ES / PT / EN subtitles',
+    chaptersLabel: 'Film chapters',
+    chapters: ['Intro', 'About me', 'How I work', 'Full stack engineering', 'Real impact', 'AI and automation', 'Projects', 'Career path', 'Contact'],
+  },
   about: {
     label: 'About',
     title: 'Who',
     highlight: 'I am',
     intro: (
       <>
-        I&apos;m <strong className="text-white font-normal">João Pedro Soares</strong>, a Brazilian{' '}
-        <span className="text-orange-bright">mid-level</span> full stack developer, born in Natal, educated in João
+        I&apos;m <strong className="text-white font-normal">João Pedro Soares</strong>, a Brazilian full stack software
+        engineer with <span className="text-orange-bright">3+ years of experience</span>, born in Natal, educated in João
         Pessoa and currently based in <span className="text-white">Granada, Spain</span>.
       </>
     ),
@@ -63,8 +73,8 @@ const en = {
         desc: 'Focused on software development, systems analysis, databases, algorithms, networking and telecommunications. Hands-on full stack engineering with Java, Spring Boot, React, JavaScript, REST APIs and relational databases, plus software architecture, cybersecurity and artificial intelligence.',
       },
       {
-        tag: 'MBA · In progress',
-        title: 'Master of Business Administration',
+        tag: "Master's · In progress",
+        title: "Master's in Business Process Management and Technologies",
         place: 'Universidad de Granada, Spain',
         detail: 'Sep 2026 - Sep 2027',
         desc: "Master's degree at the intersection of technology and business, with emphasis on business process management (BPM), digital transformation, enterprise systems, process optimization and applying technology to complex organizational challenges.",

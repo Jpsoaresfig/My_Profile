@@ -10,7 +10,19 @@ export const CONTACT = {
   cv: '/cv/Joao_Pedro_Soares_CV_EN.pdf',
 }
 
-export const SECTION_IDS = ['about', 'experience', 'tech', 'projects', 'recommendations', 'connect']
+export const SECTION_IDS = ['film', 'about', 'experience', 'tech', 'projects', 'recommendations', 'connect']
+
+// Presentation film in English (rendered by video/producao); captions follow the site language.
+// Chapter times and duration come from data/film-chapters.json, written by video/producao/web.py.
+export const FILM = {
+  src: '/video/from-problems-to-software-en.mp4',
+  poster: '/video/from-problems-to-software-poster-en.jpg',
+  captions: {
+    es: '/video/captions-en-es.vtt',
+    en: '/video/captions-en-en.vtt',
+    pt: '/video/captions-en-pt.vtt',
+  },
+}
 
 export const HERO_STACK = ['Java', 'Spring Boot', 'TypeScript', 'React', 'Node.js', 'Python']
 

@@ -6,7 +6,7 @@ const pt = {
   meta: {
     title: 'João Pedro Soares | Engenheiro de Software Full Stack',
     description:
-      'Portfólio de João Pedro Soares, engenheiro de software full stack em João Pessoa (PB). Java, Spring Boot, React, React Native e Node: APIs, automação e produtos web e mobile em produção.',
+      'Portfólio de João Pedro Soares, engenheiro de software full stack baseado em Granada, Espanha. Java, Spring Boot, React, React Native e Node: APIs, automação e produtos web e mobile em produção.',
   },
   terms: {},
   common: {
@@ -22,6 +22,7 @@ const pt = {
     open: 'Abrir menu',
     close: 'Fechar menu',
     links: {
+      film: 'Vídeo',
       about: 'Sobre',
       experience: 'Experiência',
       tech: 'Tecnologias',
@@ -41,15 +42,24 @@ const pt = {
     stats: ['Anos de experiência', 'Empresas', 'Produtos no ar'],
     scroll: 'Role para explorar',
   },
+  film: {
+    label: 'Vídeo',
+    title: 'Do problema',
+    highlight: 'ao software',
+    intro: 'Cinco minutos sobre como eu trabalho: engenharia full stack, IA aplicada e automação integradas a sistemas reais, e os resultados dos projetos dos quais participei. Escolha um capítulo para ir direto ao que interessa.',
+    meta: 'Narração em inglês · legendas PT / ES / EN',
+    chaptersLabel: 'Capítulos do vídeo',
+    chapters: ['Introdução', 'Sobre mim', 'Como trabalho', 'Engenharia full stack', 'Impacto real', 'IA e automação', 'Projetos', 'Trajetória', 'Contato'],
+  },
   about: {
     label: 'Sobre',
     title: 'Quem',
     highlight: 'eu sou',
     intro: (
       <>
-        Sou <strong className="text-white font-normal">João Pedro Soares</strong>, desenvolvedor full stack{' '}
-        <span className="text-orange-bright">pleno</span>, brasileiro, nascido em Natal (RN), formado em João Pessoa (PB)
-        e hoje baseado em <span className="text-white">Granada, Espanha</span>.
+        Sou <strong className="text-white font-normal">João Pedro Soares</strong>, engenheiro de software full stack
+        brasileiro com <span className="text-orange-bright">mais de 3 anos de experiência</span>, nascido em Natal (RN),
+        formado em João Pessoa (PB) e hoje baseado em <span className="text-white">Granada, Espanha</span>.
       </>
     ),
     bio: 'Construo sistemas de ponta a ponta: arquitetura, back-end, automação e integração, com foco em eficiência, automação de processos e transformação digital. Minha expertise abrange Java, Spring Boot, Oracle APEX, UiPath, PHP e tecnologias modernas de front-end. Já entreguei soluções de alto impacto para o setor público e financeiro, sempre com código limpo, escalabilidade e segurança da informação (LGPD). Apaixonado por aprender rápido e construir sistemas confiáveis que geram valor real.',
@@ -63,8 +73,8 @@ const pt = {
         desc: 'Foco em desenvolvimento de software, análise de sistemas, bancos de dados, algoritmos, redes e telecomunicações. Experiência prática em engenharia full stack com Java, Spring Boot, React, JavaScript, APIs REST e bancos relacionais, além de arquitetura de software, cibersegurança e inteligência artificial.',
       },
       {
-        tag: 'MBA · Em andamento',
-        title: 'Master in Business Administration',
+        tag: 'Mestrado · Em andamento',
+        title: 'Mestrado em Gestão e Tecnologias de Processos de Negócio',
         place: 'Universidad de Granada, Espanha',
         detail: 'Set 2026 - Set 2027',
         desc: 'Mestrado na interseção entre tecnologia e negócios, com ênfase em gestão de processos de negócio (BPM), transformação digital, sistemas corporativos, otimização de processos e uso da tecnologia para resolver desafios organizacionais complexos.',
