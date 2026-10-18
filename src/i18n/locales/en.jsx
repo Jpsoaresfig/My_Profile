@@ -106,7 +106,7 @@ const en = {
         ],
       },
       ousepassar: {
-        role: 'Software Engineer · Full-time',
+        role: 'Software Engineer · Contract',
         period: 'Jan 2026 - Jul 2026',
         location: 'João Pessoa, Brazil · Hybrid',
         impact: { value: '3', label: 'platforms (iOS, Android and Web) shipped as the main developer' },

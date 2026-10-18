@@ -37,7 +37,7 @@ const pt = {
     stackAria: 'Principais tecnologias',
     lead: 'Engenheiro full stack com 3+ anos construindo sistemas web, mobile e back-end com Java (Spring Boot), TypeScript (React, Node.js), Python e SQL. Arquitetura REST, integração com IA, automação de processos e otimização de bancos nos setores financeiro, público e de educação.',
     cv: 'Baixar CV',
-    cvNote: 'PDF em inglês',
+    cvNote: 'PDF',
     ctaProjects: 'Ver projetos',
     stats: ['Anos de experiência', 'Empresas', 'Produtos no ar'],
     scroll: 'Role para explorar',
@@ -106,7 +106,7 @@ const pt = {
         ],
       },
       ousepassar: {
-        role: 'Engenheiro de Software · Tempo integral',
+        role: 'Engenheiro de Software · Contrato',
         period: 'Jan 2026 - Jul 2026',
         location: 'João Pessoa, PB · Híbrido',
         impact: { value: '3', label: 'plataformas (iOS, Android e Web) entregues como desenvolvedor principal' },
