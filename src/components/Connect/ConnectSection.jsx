@@ -87,10 +87,6 @@ export default function ConnectSection() {
           </a>
           <div className="mt-5 flex flex-wrap items-center justify-center gap-3">
             <CopyEmail />
-            <a href={CONTACT.phoneHref} className="copy-btn">
-              <span className="sr-only">{c.call} </span>
-              {CONTACT.phone}
-            </a>
           </div>
         </div>
 

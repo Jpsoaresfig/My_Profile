@@ -3,8 +3,6 @@
 
 export const CONTACT = {
   email: 'jpbusinesss@hotmail.com',
-  phone: '+55 (83) 99382-6429',
-  phoneHref: 'tel:+5583993826429',
   linkedin: 'https://linkedin.com/in/joaopedrosoaresfigueiredo',
   github: 'https://github.com/Jpsoaresfig',
   cv: '/cv/Joao_Pedro_Soares_CV_EN.pdf',
@@ -12,16 +10,11 @@ export const CONTACT = {
 
 export const SECTION_IDS = ['film', 'about', 'experience', 'tech', 'projects', 'recommendations', 'connect']
 
-// Presentation film in English (rendered by video/producao); captions follow the site language.
+// Presentation film on YouTube: one upload per site language (subtitles burned in), rendered by video/producao.
 // Chapter times and duration come from data/film-chapters.json, written by video/producao/web.py.
 export const FILM = {
-  src: '/video/from-problems-to-software-en.mp4',
+  youtube: { en: 'jLjVc3n6Iwo', es: 'WX88JmUlHGw', pt: '-LHqy9Rsh0M' },
   poster: '/video/from-problems-to-software-poster-en.jpg',
-  captions: {
-    es: '/video/captions-en-es.vtt',
-    en: '/video/captions-en-en.vtt',
-    pt: '/video/captions-en-pt.vtt',
-  },
 }
 
 export const HERO_STACK = ['Java', 'Spring Boot', 'TypeScript', 'React', 'Node.js', 'Python']
@@ -67,7 +60,7 @@ export const PROJECTS = [
   {
     id: 'shark',
     title: 'Shark Smokehouse',
-    stack: ['Next.js 16', 'React 19', 'TypeScript', 'Tailwind v4', 'Zustand', 'Firebase', 'Cloudinary'],
+    stack: ['Next.js 16', 'React 19', 'TypeScript', 'Tailwind v4', 'Firebase', 'Mercado Pago', 'Zustand', 'Cloudinary', 'Vitest'],
     link: 'https://github.com/Jpsoaresfig/Shark_SmokeHouse',
     demo: 'https://shark-smoke-house.vercel.app',
     color: '#7ed957',
@@ -76,6 +69,8 @@ export const PROJECTS = [
 ]
 
 export const OPEN_SOURCE = [
+  // `wide` spans both grid columns.
+  { id: 'tcc', title: 'Spring Boot vs Quarkus', link: 'https://github.com/TCC-Jv-Jp-Luiz', stack: ['Java 21', 'Spring Boot', 'Quarkus', 'PostgreSQL', 'Kubernetes (GKE)', 'JMeter', 'Terraform'], wide: true },
   { id: 'apex', title: 'APEX Print Server (BIRT)', link: 'https://github.com/Jpsoaresfig/apex-print-server-birt', stack: ['Java', 'BIRT', 'Maven', 'Docker'] },
   // Title comes from the locale (projects.allRepos).
   { id: 'all', title: null, link: 'https://github.com/Jpsoaresfig', stack: ['@Jpsoaresfig'] },

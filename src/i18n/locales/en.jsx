@@ -47,7 +47,8 @@ const en = {
     title: 'From problems',
     highlight: 'to software',
     intro: 'Five minutes on how I work: full stack engineering, applied AI and automation built into real systems, and the results of the projects I took part in. Pick a chapter to jump straight to what interests you.',
-    meta: 'English narration · ES / PT / EN subtitles',
+    meta: 'English narration',
+    play: 'Play the film',
     chaptersLabel: 'Film chapters',
     chapters: ['Intro', 'About me', 'How I work', 'Full stack engineering', 'Real impact', 'AI and automation', 'Projects', 'Career path', 'Contact'],
   },
@@ -97,7 +98,7 @@ const en = {
         role: 'Full Stack Software Engineer · Contract',
         period: 'Oct 2025 - Aug 2026',
         location: 'João Pessoa, Brazil · Remote',
-        impact: { value: '70%', label: 'less processing time for field inspections with E-PROCON' },
+        impact: { value: '~70%', label: 'less processing time for field inspections with E-PROCON' },
         bullets: [
           'Developed, together with the team, the SiCAPS system for PROCON-PB, digitizing price data collection, organization and analysis: researcher and store registration, digital field collection, team assignment and geolocation-based monitoring, delivering greater efficiency, data accuracy and reliable real-time reports.',
           'Contributed to the E-PROCON Inspection System for PROCON-PB, modernizing, automating and fully digitizing field inspections and eliminating paper and pen at every stage: real-time digital issuing of fines and infractions, management dashboards and automated reports, LGPD-compliant secure access and agile communication with suppliers.',
@@ -195,11 +196,13 @@ const en = {
       shark: {
         type: 'E-commerce + Lounge',
         description:
-          'E-commerce and lounge platform for the Shark Smokehouse tobacco shop: catalog, cart, checkout with automatic stock deduction, loyalty program, lounge booking (with time-slot conflict locking) and a complete admin panel with products, orders, POS, inventory, events and CMS.',
+          'E-commerce and lounge platform for the Shark Smokehouse tobacco shop, in production, which I designed and built. Checkout is recalculated and written on the server in a single transaction (prices, stock, coupon and order), with Mercado Pago PIX payments confirmed by signed webhooks. It includes a tiered loyalty program with rewards, a point-of-sale system, marketing automations, an operations dashboard and 28 Vitest test files.',
+        highlight: { value: '61', label: 'registered users · in production' },
       },
     },
     allRepos: 'All repositories',
     academic: {
+      tcc: 'Final degree project (highest grade, team project): equivalent CRUD APIs in Spring Boot and Quarkus on Kubernetes (GKE), load-tested with JMeter. Spring Boot delivered lower latency and higher throughput; Quarkus used ~21 MiB vs ~271 MiB at idle and scaled with 3 pods vs 10.',
       apex: 'Java/BIRT print server that generates reports (PDF, HTML, Excel) and plugs into Oracle APEX, with Maven and Docker.',
       all: 'All public repositories, including the source of Shark Smokehouse.',
     },
@@ -232,7 +235,6 @@ const en = {
     email: 'Email',
     copy: 'Copy email',
     copied: 'Copied!',
-    call: 'Call',
     sendEmail: 'Send email',
     footerRole: 'Full Stack Developer · Granada, Spain',
     cv: 'Download CV',

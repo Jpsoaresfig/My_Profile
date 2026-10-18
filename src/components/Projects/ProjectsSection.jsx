@@ -67,6 +67,12 @@ function ProjectDetail({ project, index, onStep }) {
         <h3 className="font-gothic text-white mb-5 leading-none" style={{ fontSize: 'clamp(2.2rem, 4.5vw, 3.4rem)' }}>
           {project.title}
         </h3>
+        {copy.highlight && (
+          <p className="impact">
+            <span className="impact__value">{copy.highlight.value}</span>
+            <span className="impact__label">{copy.highlight.label}</span>
+          </p>
+        )}
         <p className="text-white/70 text-[15px] leading-relaxed font-light flex-1 text-pretty">{copy.description}</p>
 
         <ul className="mt-7 flex flex-wrap gap-2" aria-label={p.stackAria}>
@@ -140,7 +146,7 @@ export default function ProjectsSection() {
         </Reveal>
         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-6">
           {OPEN_SOURCE.map((a, i) => (
-            <Reveal as="li" key={a.id} delay={(i % 2) * 80}>
+            <Reveal as="li" key={a.id} delay={(i % 2) * 80} className={a.wide ? 'sm:col-span-2' : undefined}>
               <a href={a.link} target="_blank" rel="noopener noreferrer" className="card card-link p-7 h-full flex flex-col">
                 <span className="flex items-start justify-between gap-4 mb-3">
                   <span className="font-gothic text-white text-xl tracking-wide card-link__title">{a.title ?? p.allRepos}</span>
