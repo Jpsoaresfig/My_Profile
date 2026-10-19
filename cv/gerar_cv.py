@@ -23,7 +23,7 @@ pdfmetrics.registerFontFamily("Arial", normal="Arial", bold="Arial-Bold")
 
 NAVY, BLUE, GREY, RULE = HexColor("#1F3A5F"), HexColor("#2F6DB5"), HexColor("#4A4A4A"), HexColor("#9A9A9A")
 PHONE = "+55 (83) 99382-6429"
-SITE = "my-profile-hazel-one.vercel.app"
+SITE = "jpsoaresfig.dev"
 
 S = dict(
     name=ParagraphStyle("name", fontName="Arial-Bold", fontSize=17, leading=21, alignment=TA_CENTER, textColor=NAVY),

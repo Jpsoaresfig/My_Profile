@@ -1,4 +1,12 @@
 {
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "my-profile-hazel-one.vercel.app" }],
+      "destination": "https://jpsoaresfig.dev/:path*",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",

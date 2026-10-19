@@ -2,7 +2,7 @@
 
 Portfólio pessoal de **João Pedro Soares**, engenheiro de software full stack (Java, Spring Boot, React, React Native e Node).
 
-🔗 **Ao vivo:** https://my-profile-hazel-one.vercel.app
+🔗 **Ao vivo:** https://jpsoaresfig.dev
 🌐 Disponível em **português**, **inglês** e **espanhol** (`?lang=pt`, `?lang=en`, `?lang=es`).
 
 ## Destaques técnicos
