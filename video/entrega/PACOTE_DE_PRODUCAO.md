@@ -19,7 +19,7 @@
 | B · Automação e IA aplicada | Agentes OpenAI/Gemini + n8n (Ouse Passar); robô UiPath + Python (Sicredi) — IA mostrada como componente, não mágica |
 | C · Tecnologia conectada ao negócio | E-PROCON (≈70%), Sicredi (≈10% e ≈5%), Mestrado em Gestão e Tecnologias de Processos de Negócio (UGR) |
 
-**Senioridade:** "Full Stack Software Engineer" com 3+ anos, sem rótulos de sênior/arquiteto. Resultados coletivos sempre com linguagem de equipe ("contribuí", "co-desenvolvimento", "trabalho de equipe", "resultado informado no projeto").
+**Senioridade:** "Full Stack Software Engineer" com 4+ anos, sem rótulos de sênior/arquiteto. Resultados coletivos sempre com linguagem de equipe ("contribuí", "co-desenvolvimento", "trabalho de equipe", "resultado informado no projeto").
 
 ## 3. Versões entregues
 
@@ -42,7 +42,7 @@ A duração de cada cena acompanha a narração real de cada idioma (as animaç�
 | # | Cena | Função | Visual | Material real |
 |---|---|---|---|---|
 | 1 | Abertura | Capturar o tech lead com a ideia "todo sistema começa com um problema" | Frase em serifada itálica; pipeline Problema → Interface → Lógica → Dados → Serviços → Infraestrutura se constrói com pacotes de dados fluindo; revelação do nome com tracking que se fecha | — |
-| 2 | Quem sou | Credibilidade em 30 s | Nome em tipografia grande; cartões: 3+ anos, UNIPÊ 2025, Granada, Mestrado UGR 2026–2027; diagrama de Venn "Engenharia de software × Processos de negócio" | — |
+| 2 | Quem sou | Credibilidade em 30 s | Nome em tipografia grande; cartões: 4+ anos, UNIPÊ 2025, Granada, Mestrado UGR 2026–2027; diagrama de Venn "Engenharia de software × Processos de negócio" | — |
 | 3 | Como trabalho | Mostrar método de raciocínio | 7 etapas que acendem em sincronia com a fala; pergunta final "o que muda na operação?"; nota "representação conceitual" | — |
 | 4 | Engenharia full stack | Amplitude técnica agrupada por função | Bandas por camada com chips de tecnologia que acendem quando citadas; depois captura real do Código da Vida → Ouse Passar ao lado do fluxo Interface → Backend → Dados → Serviços → Infra | Capturas Código da Vida e Ouse Passar |
 | 5 | Impacto real | Núcleo do vídeo: resultados com contexto | Frase de transição; E-PROCON com foto do teste de campo e fluxo Antes/Depois (rotulado como ilustrativo); **≈70%** em contagem + barras relativas + chips "trabalho em equipe / interoperabilidade / LGPD"; SiCAPS (mapa conceitual rotulado); Sicredi com foto da equipe e **≈10%** (manual → robô UiPath, barra de capacidade); **≈5%** PDF (barras antes/depois); síntese em 3 cartões com nota "resultados informados · em equipe · aproximados" | Foto do teste de campo E-PROCON; foto da equipe Sicredi |
@@ -85,7 +85,7 @@ Trilha **original**, gerada proceduralmente (sem licenciamento de terceiros): pa
 | Tempo | ES | EN | PT |
 |---|---|---|---|
 | 0–6 | Todo sistema empieza con un problema. | Every system starts with a problem. | Todo sistema começa com um problema. |
-| 6–14 | Soy João Pedro, ingeniero full stack con más de tres años en desarrollo, automatización y soporte de TI. | I'm João Pedro, a full stack engineer with 3+ years in development, automation and IT support. | Sou João Pedro, engenheiro full stack com mais de três anos em desenvolvimento, automação e suporte de TI. |
+| 6–14 | Soy João Pedro, ingeniero full stack con más de cuatro años en desarrollo, automatización y soporte de TI. | I'm João Pedro, a full stack engineer with 4+ years in development, automation and IT support. | Sou João Pedro, engenheiro full stack com mais de quatro anos em desenvolvimento, automação e suporte de TI. |
 | 14–26 | Java y Spring Boot, React y TypeScript, Python, SQL, y aplicaciones para web, iOS y Android. | Java and Spring Boot, React and TypeScript, Python, SQL, and apps for web, iOS and Android. | Java e Spring Boot, React e TypeScript, Python, SQL, e aplicações para web, iOS e Android. |
 | 26–40 | En equipo, contribuí a E-PROCON: cerca de un 70% menos de tiempo de procesamiento. En Sicredi, una automatización liberó cerca de un 10% de capacidad operativa. | As part of a team, I contributed to E-PROCON: around 70% less processing time. At Sicredi, an automation freed about 10% of operational capacity. | Em equipe, contribuí para o E-PROCON: cerca de 70% menos tempo de processamento. No Sicredi, uma automação liberou cerca de 10% de capacidade operacional. |
 | 40–50 | Integro IA con OpenAI, Gemini y n8n como parte del sistema, no como magia. Hoy curso un máster en procesos de negocio en Granada. | I integrate AI with OpenAI, Gemini and n8n as part of the system, not as magic. I'm now doing a master's in business processes in Granada. | Integro IA com OpenAI, Gemini e n8n como parte do sistema, não como mágica. Hoje curso um mestrado em processos de negócio em Granada. |

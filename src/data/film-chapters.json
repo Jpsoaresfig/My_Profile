@@ -1,5 +1,5 @@
 {
-  "duration": 333.29,
+  "duration": 333.34,
   "chapters": [
     {
       "scene": 1,
@@ -11,31 +11,31 @@
     },
     {
       "scene": 3,
-      "start": 42.54
+      "start": 42.58
     },
     {
       "scene": 4,
-      "start": 61.59
+      "start": 61.64
     },
     {
       "scene": 5,
-      "start": 109.95
+      "start": 110.0
     },
     {
       "scene": 6,
-      "start": 175.9
+      "start": 175.95
     },
     {
       "scene": 7,
-      "start": 215.12
+      "start": 215.17
     },
     {
       "scene": 8,
-      "start": 277.6
+      "start": 277.65
     },
     {
       "scene": 9,
-      "start": 317.81
+      "start": 317.86
     }
   ]
 }

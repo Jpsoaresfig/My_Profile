@@ -380,7 +380,7 @@ def scene2(fr, d, t, G):
     text(d, (120, 410 + rise(a3)), "Full Stack Software Engineer", sans(32, "semi"), ACC, a3, anchor="ls")
 
     cards = [
-        (st("who2") + 0.2, "3+", "años de experiencia", "desarrollo · automatización · soporte de TI"),
+        (st("who2") + 0.2, "4+", "años de experiencia", "desarrollo · automatización · soporte de TI"),
         (st("who2") + du("who2") * 0.15, "", "Ciencias de la Computación", "Centro Universitário UNIPÊ · 2025"),
         (st("who3") + 0.2, "", "Granada, España", "brasileño · trayectoria en Brasil y España"),
         (st("who3") + du("who3") * 0.35, "", "Máster Universitario en Gestión y Tecnologías de Procesos de Negocio",
@@ -903,7 +903,8 @@ def main():
            "-i", os.path.join(BUILD, "audio_mix.wav"), "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-pix_fmt", "yuv420p",
            "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-shortest", clean]
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
-    with Pool(max(2, os.cpu_count() - 4)) as pool:
+    # RENDER_WORKERS limita os processos quando há pouca RAM livre (cada um carrega as imagens das cenas)
+    with Pool(int(os.environ.get("RENDER_WORKERS", max(2, os.cpu_count() - 4)))) as pool:
         for k, buf in enumerate(pool.imap(frame, range(n), chunksize=8)):
             p.stdin.write(buf)
             if k % 300 == 0:
