@@ -33,6 +33,7 @@ const pt = {
   },
   hero: {
     status: 'Disponível para novas oportunidades',
+    workPermit: 'Autorização de trabalho na Espanha',
     role: 'Engenheiro de Software Full Stack',
     stackAria: 'Principais tecnologias',
     lead: 'Engenheiro full stack com 4+ anos construindo sistemas web, mobile e back-end com Java (Spring Boot), TypeScript (React, Node.js), Python e SQL. Arquitetura REST, integração com IA, automação de processos e otimização de bancos nos setores financeiro, público e de educação.',
@@ -221,6 +222,7 @@ const pt = {
     title: 'O que',
     highlight: 'dizem',
     intro: 'O que colegas de equipe e de faculdade dizem sobre trabalhar comigo.',
+    linkedinSr: '(perfil no LinkedIn, abre em nova aba)',
     translated: null,
     items: {
       carlos: {

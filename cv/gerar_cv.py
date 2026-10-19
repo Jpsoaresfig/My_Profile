@@ -47,7 +47,7 @@ CV = {
         role="FULL STACK SOFTWARE ENGINEER",
         city="Granada, Spain",
         site="Portfolio and 5-minute film",
-        langs="<b>Nationality:</b> Brazilian | <b>Languages:</b> Portuguese (Native), English (C1 written / B2 spoken), "
+        langs="<b>Nationality:</b> Brazilian | <b>Work permit:</b> Spain | <b>Languages:</b> Portuguese (Native), English (C1 written / B2 spoken), "
               "Spanish (B2 comprehension / B1 spoken &amp; written)",
         h=["PROFESSIONAL SUMMARY", "EDUCATION", "TECHNICAL SKILLS", "PROFESSIONAL EXPERIENCE", "SELECTED PROJECTS"],
         summary="Full Stack Software Engineer with 4+ years of experience building web, mobile and backend systems with Java "
@@ -93,7 +93,7 @@ CV = {
         role="INGENIERO DE SOFTWARE FULL STACK",
         city="Granada, España",
         site="Portafolio y vídeo de 5 minutos",
-        langs="<b>Nacionalidad:</b> brasileña | <b>Idiomas:</b> portugués (nativo), inglés (C1 escrito / B2 oral), "
+        langs="<b>Nacionalidad:</b> brasileña | <b>Permiso de trabajo:</b> España | <b>Idiomas:</b> portugués (nativo), inglés (C1 escrito / B2 oral), "
               "español (B2 comprensión / B1 oral y escrito)",
         h=["PERFIL PROFESIONAL", "FORMACIÓN", "COMPETENCIAS TÉCNICAS", "EXPERIENCIA PROFESIONAL", "PROYECTOS DESTACADOS"],
         summary="Ingeniero de software full stack con más de 4 años de experiencia desarrollando sistemas web, móviles y backend con "
@@ -139,7 +139,7 @@ CV = {
         role="ENGENHEIRO DE SOFTWARE FULL STACK",
         city="Granada, Espanha",
         site="Portfólio e vídeo de 5 minutos",
-        langs="<b>Nacionalidade:</b> brasileira | <b>Idiomas:</b> português (nativo), inglês (C1 escrita / B2 conversação), "
+        langs="<b>Nacionalidade:</b> brasileira | <b>Autorização de trabalho:</b> Espanha | <b>Idiomas:</b> português (nativo), inglês (C1 escrita / B2 conversação), "
               "espanhol (B2 compreensão / B1 conversação e escrita)",
         h=["RESUMO PROFISSIONAL", "FORMAÇÃO", "COMPETÊNCIAS TÉCNICAS", "EXPERIÊNCIA PROFISSIONAL", "PROJETOS EM DESTAQUE"],
         summary="Engenheiro de software full stack com mais de 4 anos de experiência desenvolvendo sistemas web, mobile e backend com "

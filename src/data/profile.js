@@ -81,8 +81,8 @@ export const OPEN_SOURCE = [
 ]
 
 export const RECOMMENDATIONS = [
-  { id: 'carlos', name: 'Carlos Rufino', role: 'Automation & RPA Developer · Sicredi Evolução' },
-  { id: 'monalisa', name: 'Monalisa Silva', role: 'Systems Developer · Oracle APEX · PL/SQL' },
-  { id: 'miqueias', name: 'Miquéias Soares', role: 'PHP · Laravel · JS · TypeScript · Vue.js' },
-  { id: 'luiz', name: 'Luiz Filipe', role: 'Backend · Java · Spring Boot · SQL' },
+  { id: 'carlos', name: 'Carlos Rufino', linkedin: 'https://www.linkedin.com/in/carlos-rufino-b2b650197/', role: 'Automation & RPA Developer · Sicredi Evolução' },
+  { id: 'monalisa', name: 'Monalisa Silva', linkedin: 'https://www.linkedin.com/in/monalisa-ellen-silva-0b99442b3/', role: 'Systems Developer · Oracle APEX · PL/SQL' },
+  { id: 'miqueias', name: 'Miquéias Soares', linkedin: 'https://www.linkedin.com/in/mq-soares/', role: 'PHP · Laravel · JS · TypeScript · Vue.js' },
+  { id: 'luiz', name: 'Luiz Filipe', linkedin: 'https://www.linkedin.com/in/luiz-filipe-293865206/', role: 'Backend · Java · Spring Boot · SQL' },
 ]

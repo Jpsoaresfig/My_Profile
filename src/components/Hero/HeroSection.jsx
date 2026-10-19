@@ -41,7 +41,11 @@ export default function HeroSection() {
       <div ref={contentRef} className="hero__content">
         <p className="intro status-badge" style={{ '--d': '0ms' }}>
           <span className="status-badge__dot" aria-hidden="true" />
-          {t.hero.status}
+          <span>{t.hero.status}</span>
+          <span className="status-badge__sep" aria-hidden="true">
+            ·
+          </span>
+          <span>{t.hero.workPermit}</span>
         </p>
 
         <p className="intro hero__eyebrow" style={{ '--d': '80ms' }}>

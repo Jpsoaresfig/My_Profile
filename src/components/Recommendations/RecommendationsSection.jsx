@@ -2,6 +2,7 @@ import Reveal from '../shared/Reveal'
 import SectionHeader from '../shared/SectionHeader'
 import { RECOMMENDATIONS } from '../../data/profile'
 import { useI18n } from '../../i18n/context'
+import { ArrowUpRight } from '../shared/Icons'
 
 const initials = (name) =>
   name
@@ -37,7 +38,20 @@ export default function RecommendationsSection() {
                   {initials(rec.name)}
                 </span>
                 <span className="min-w-0">
-                  <span className="block font-gothic text-white text-xl tracking-wide">{rec.name}</span>
+                  {rec.linkedin ? (
+                    <a
+                      href={rec.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 font-gothic text-white text-xl tracking-wide hover:text-orange-bright transition-colors"
+                    >
+                      {rec.name}
+                      <ArrowUpRight className="w-3.5 h-3.5 text-white/50" />
+                      <span className="sr-only">{r.linkedinSr}</span>
+                    </a>
+                  ) : (
+                    <span className="block font-gothic text-white text-xl tracking-wide">{rec.name}</span>
+                  )}
                   <span className="block font-mono text-[11px] text-orange-bright/90 mt-0.5">{rec.role}</span>
                   <span className="block font-mono text-[11px] text-white/55 mt-0.5">{copy.note}</span>
                 </span>

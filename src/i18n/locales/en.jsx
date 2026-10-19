@@ -33,6 +33,7 @@ const en = {
   },
   hero: {
     status: 'Open to new opportunities',
+    workPermit: 'Authorized to work in Spain',
     role: 'Full Stack Software Engineer',
     stackAria: 'Core technologies',
     lead: 'Full stack engineer with 4+ years building web, mobile and back-end systems with Java (Spring Boot), TypeScript (React, Node.js), Python and SQL. REST architecture, AI integration, process automation and database optimization across the financial, public and edtech sectors.',
@@ -221,6 +222,7 @@ const en = {
     title: 'What they',
     highlight: 'say',
     intro: 'What teammates and classmates say about working with me.',
+    linkedinSr: '(LinkedIn profile, opens in a new tab)',
     translated: 'Translated from Portuguese',
     items: {
       carlos: {

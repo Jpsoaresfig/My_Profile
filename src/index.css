@@ -623,6 +623,13 @@ a:hover > .monogram { background: rgba(255, 107, 0, 0.16); border-color: var(--a
   text-transform: uppercase;
   color: #c4f2ad;
 }
+.status-badge__sep { opacity: 0.5; }
+/* On narrow screens the permit drops to its own line */
+@media (max-width: 639px) {
+  .status-badge { flex-wrap: wrap; justify-content: center; row-gap: 0.25rem; border-radius: 1rem; text-align: center; }
+  .status-badge__sep { display: none; }
+  .status-badge > span:last-child { flex-basis: 100%; }
+}
 .status-badge__dot { position: relative; width: 7px; height: 7px; border-radius: 50%; background: var(--success); }
 .status-badge__dot::after {
   content: '';
