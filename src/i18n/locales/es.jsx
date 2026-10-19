@@ -214,6 +214,10 @@ const es = {
     intro: 'Lo que dicen compañeros de equipo y de universidad sobre trabajar conmigo.',
     translated: 'Traducido del portugués',
     items: {
+      carlos: {
+        note: 'Trabajó con João Pedro en el equipo de TI de Sicredi',
+        text: 'João Pedro formó parte de nuestro equipo de TI durante dos años y demostró numerosos talentos, tanto en infraestructura y soporte como en desarrollo de software, automatización y RPA. Su sed de conocimiento y su dedicación a aprender nuevas tecnologías hicieron que muchas veces fuera elegido para tareas importantes del área. En desarrollo mostró creatividad y proactividad, siempre buscando optimizar procesos y mejorar la experiencia de los usuarios, y contribuyó de forma significativa al éxito de proyectos clave de la empresa. Estoy seguro de que será una incorporación valiosa para cualquier equipo.',
+      },
       monalisa: {
         note: 'Trabajó con João Pedro en el mismo equipo',
         text: 'João Pedro es un profesional extremadamente servicial, siempre dispuesto a apoyar y compartir conocimiento, con muchas ganas de enseñar y colaborar. Es alguien en quien se puede confiar de verdad: nunca deja a sus compañeros solos y está presente cuando se necesita apoyo, contribuyendo a un ambiente de trabajo sano. Sin duda aporta valor a cualquier equipo y lo recomiendo con total confianza.',

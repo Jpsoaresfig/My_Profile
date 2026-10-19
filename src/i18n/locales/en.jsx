@@ -214,6 +214,10 @@ const en = {
     intro: 'What teammates and classmates say about working with me.',
     translated: 'Translated from Portuguese',
     items: {
+      carlos: {
+        note: 'Worked with João Pedro on the Sicredi IT team',
+        text: 'João Pedro was part of our IT team for two years and showed many talents, both in infrastructure and support and in software development, automation and RPA. His thirst for knowledge and dedication to learning new technologies meant he was often chosen for important tasks in our department. In development he showed creativity and initiative, always looking for ways to optimize processes and improve the user experience, and he contributed significantly to the success of key company projects. I am confident he will be a valuable addition to any team.',
+      },
       monalisa: {
         note: 'Worked with João Pedro on the same team',
         text: 'João Pedro is an extremely helpful professional, always available to support others and share knowledge, with a strong drive to teach and collaborate. He is someone you can truly rely on: he never leaves his colleagues hanging and is there when support is needed, contributing to a healthy work environment. Without a doubt he adds value to any team, and I recommend him with complete confidence.',

@@ -214,6 +214,10 @@ const pt = {
     intro: 'O que colegas de equipe e de faculdade dizem sobre trabalhar comigo.',
     translated: null,
     items: {
+      carlos: {
+        note: 'Trabalhou com João Pedro na equipe de TI do Sicredi',
+        text: 'João Pedro fez parte da nossa equipe de TI por dois anos e demonstrou inúmeros talentos, tanto em infraestrutura e suporte quanto no desenvolvimento de software, automações e RPA. Sua sede de conhecimento e dedicação em aprender novas tecnologias fizeram com que, muitas vezes, fosse escolhido para atividades importantes do setor. No desenvolvimento, mostrou criatividade e proatividade, sempre buscando otimizar processos e melhorar a experiência dos usuários, e contribuiu significativamente para o sucesso de projetos importantes da empresa. Estou confiante de que será uma adição valiosa a qualquer equipe.',
+      },
       monalisa: {
         note: 'Trabalhou com João Pedro na mesma equipe',
         text: 'João Pedro é um profissional extremamente prestativo, sempre disponível para apoiar e compartilhar conhecimento, com forte vontade de ensinar e colaborar. É alguém em quem se pode confiar de verdade: nunca deixa os colegas na mão e está presente quando o suporte é necessário, contribuindo para um ambiente de trabalho saudável. Sem dúvida, agrega valor a qualquer equipe e o recomendo com total confiança.',

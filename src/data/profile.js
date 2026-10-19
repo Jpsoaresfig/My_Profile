@@ -78,6 +78,7 @@ export const OPEN_SOURCE = [
 ]
 
 export const RECOMMENDATIONS = [
+  { id: 'carlos', name: 'Carlos Rufino', role: 'Automation & RPA Developer · Sicredi Evolução' },
   { id: 'monalisa', name: 'Monalisa Silva', role: 'Systems Developer · Oracle APEX · PL/SQL' },
   { id: 'miqueias', name: 'Miquéias Soares', role: 'PHP · Laravel · JS · TypeScript · Vue.js' },
   { id: 'luiz', name: 'Luiz Filipe', role: 'Backend · Java · Spring Boot · SQL' },
