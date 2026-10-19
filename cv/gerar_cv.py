@@ -50,7 +50,7 @@ CV = {
         langs="<b>Nationality:</b> Brazilian | <b>Languages:</b> Portuguese (Native), English (C1 written / B2 spoken), "
               "Spanish (B2 comprehension / B1 spoken &amp; written)",
         h=["PROFESSIONAL SUMMARY", "EDUCATION", "TECHNICAL SKILLS", "PROFESSIONAL EXPERIENCE", "SELECTED PROJECTS"],
-        summary="Full Stack Software Engineer with 3+ years of experience building web, mobile and backend systems with Java "
+        summary="Full Stack Software Engineer with 4+ years of experience building web, mobile and backend systems with Java "
                 "(Spring Boot), TypeScript (React, Node.js), Python and SQL. Experience in REST architectures, applied AI "
                 "integration, process automation, database optimization and cloud infrastructure across the financial, public "
                 "and edtech sectors.",
@@ -82,8 +82,8 @@ CV = {
         ],
         projects=[
             "<b>Shark Smokehouse</b> — designed and built an e-commerce and management platform, in production with 61 registered users. "
-            "Next.js, React, TypeScript, Firebase and Mercado Pago: server-side transactional checkout, PIX payments confirmed by signed "
-            "webhooks, loyalty program, point of sale, marketing automations and 28 Vitest test files.",
+            "Next.js, React, TypeScript, Firebase and Mercado Pago: server-side transactional checkout, PIX payments confirmed via webhook "
+            "and checked against the Mercado Pago API, loyalty program, point of sale, marketing automations and 30 Vitest test files.",
             "<b>Final degree project: Spring Boot vs Quarkus</b> (team, highest grade) — equivalent CRUD APIs on Kubernetes (GKE), "
             "load-tested with JMeter. Spring Boot delivered lower latency and higher throughput; Quarkus used ~21 MiB vs ~271 MiB at idle "
             "and scaled with 3 pods vs 10.",
@@ -96,7 +96,7 @@ CV = {
         langs="<b>Nacionalidad:</b> brasileña | <b>Idiomas:</b> portugués (nativo), inglés (C1 escrito / B2 oral), "
               "español (B2 comprensión / B1 oral y escrito)",
         h=["PERFIL PROFESIONAL", "FORMACIÓN", "COMPETENCIAS TÉCNICAS", "EXPERIENCIA PROFESIONAL", "PROYECTOS DESTACADOS"],
-        summary="Ingeniero de software full stack con más de 3 años de experiencia desarrollando sistemas web, móviles y backend con "
+        summary="Ingeniero de software full stack con más de 4 años de experiencia desarrollando sistemas web, móviles y backend con "
                 "Java (Spring Boot), TypeScript (React, Node.js), Python y SQL. Experiencia en arquitecturas REST, integración de IA "
                 "aplicada, automatización de procesos, optimización de bases de datos e infraestructura cloud en los sectores "
                 "financiero, público y educativo.",
@@ -128,8 +128,8 @@ CV = {
         ],
         projects=[
             "<b>Shark Smokehouse</b> — diseño y desarrollo de una plataforma de comercio electrónico y gestión, en producción con 61 usuarios "
-            "registrados. Next.js, React, TypeScript, Firebase y Mercado Pago: checkout transaccional en el servidor, pagos PIX confirmados "
-            "por webhooks firmados, programa de fidelidad, TPV, automatizaciones de marketing y 28 archivos de pruebas con Vitest.",
+            "registrados. Next.js, React, TypeScript, Firebase y Mercado Pago: checkout transaccional en el servidor, pagos PIX confirmados por webhook "
+            "y verificados en la API de Mercado Pago, programa de fidelidad, TPV, automatizaciones de marketing y 30 archivos de pruebas con Vitest.",
             "<b>TFG: Spring Boot vs Quarkus</b> (en equipo, calificación máxima) — APIs CRUD equivalentes sobre Kubernetes (GKE), probadas "
             "con JMeter. Spring Boot tuvo menor latencia y mayor throughput; Quarkus usó ~21 MiB frente a ~271 MiB en reposo y escaló con "
             "3 pods frente a 10.",
@@ -142,7 +142,7 @@ CV = {
         langs="<b>Nacionalidade:</b> brasileira | <b>Idiomas:</b> português (nativo), inglês (C1 escrita / B2 conversação), "
               "espanhol (B2 compreensão / B1 conversação e escrita)",
         h=["RESUMO PROFISSIONAL", "FORMAÇÃO", "COMPETÊNCIAS TÉCNICAS", "EXPERIÊNCIA PROFISSIONAL", "PROJETOS EM DESTAQUE"],
-        summary="Engenheiro de software full stack com mais de 3 anos de experiência desenvolvendo sistemas web, mobile e backend com "
+        summary="Engenheiro de software full stack com mais de 4 anos de experiência desenvolvendo sistemas web, mobile e backend com "
                 "Java (Spring Boot), TypeScript (React, Node.js), Python e SQL. Experiência em arquiteturas REST, integração de IA "
                 "aplicada, automação de processos, otimização de bancos de dados e infraestrutura em nuvem nos setores financeiro, "
                 "público e educacional.",
@@ -174,8 +174,8 @@ CV = {
         ],
         projects=[
             "<b>Shark Smokehouse</b> — projetei e desenvolvi uma plataforma de e-commerce e gestão, em produção com 61 usuários cadastrados. "
-            "Next.js, React, TypeScript, Firebase e Mercado Pago: checkout transacional no servidor, pagamentos PIX confirmados por webhooks "
-            "assinados, programa de fidelidade, PDV, automações de marketing e 28 arquivos de testes com Vitest.",
+            "Next.js, React, TypeScript, Firebase e Mercado Pago: checkout transacional no servidor, pagamentos PIX confirmados por webhook "
+            "e conferidos na API do Mercado Pago, programa de fidelidade, PDV, automações de marketing e 30 arquivos de testes com Vitest.",
             "<b>TCC: Spring Boot vs Quarkus</b> (em equipe, nota máxima) — APIs CRUD equivalentes no Kubernetes (GKE), testadas com "
             "JMeter. O Spring Boot teve menor latência e maior throughput; o Quarkus usou ~21 MiB contra ~271 MiB em repouso e escalou "
             "com 3 pods contra 10.",

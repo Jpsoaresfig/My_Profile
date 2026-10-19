@@ -35,7 +35,7 @@ const en = {
     status: 'Open to new opportunities',
     role: 'Full Stack Software Engineer',
     stackAria: 'Core technologies',
-    lead: 'Full stack engineer with 3+ years building web, mobile and back-end systems with Java (Spring Boot), TypeScript (React, Node.js), Python and SQL. REST architecture, AI integration, process automation and database optimization across the financial, public and edtech sectors.',
+    lead: 'Full stack engineer with 4+ years building web, mobile and back-end systems with Java (Spring Boot), TypeScript (React, Node.js), Python and SQL. REST architecture, AI integration, process automation and database optimization across the financial, public and edtech sectors.',
     cv: 'Download CV',
     cvNote: 'PDF',
     ctaProjects: 'View projects',
@@ -59,7 +59,7 @@ const en = {
     intro: (
       <>
         I&apos;m <strong className="text-white font-normal">João Pedro Soares</strong>, a Brazilian full stack software
-        engineer with <span className="text-orange-bright">3+ years of experience</span>, born in Natal, educated in João
+        engineer with <span className="text-orange-bright">4+ years of experience</span>, born in Natal, educated in João
         Pessoa and currently based in <span className="text-white">Granada, Spain</span>.
       </>
     ),
@@ -180,23 +180,32 @@ const en = {
     code: 'Code',
     codeSr: 'on GitHub',
     stackAria: 'Stack',
+    caseAria: 'Case study',
+    challenge: 'Challenge',
+    solution: 'What I did',
+    result: 'Result',
+    shotAlt: 'Screenshot of',
     academicTitle: 'Also on GitHub',
     academicSr: '(opens GitHub in a new tab)',
     items: {
       codigodavida: {
         type: 'App · iOS / Android / Web',
-        description:
-          'Mobile app built from scratch, from data modeling to store release. Load-balanced architecture and security protocols for high availability, with automated multimedia content generation (audio, text and image) through native integration with AI models.',
+        challenge: 'Launch a premium content app on iOS, Android and Web from scratch, with multimedia content produced at scale and subscriptions that work across app stores and the web.',
+        solution: 'As lead developer I took it from data modeling to store release: one React + TypeScript codebase shipped with Capacitor, a Supabase back-end with load balancing and security mechanisms, and AI pipelines (OpenAI, Gemini, n8n) that generate audio, text and images. RevenueCat keeps plans in sync across stores and web.',
+        result: 'Live on three platforms from a single codebase, with automated content generation and subscriptions in sync everywhere.',
+        highlight: { value: '3', label: 'platforms live · iOS, Android & Web' },
       },
       ousepassar: {
         type: 'Education Platform',
-        description:
-          'A platform that prepares students for Brazilian public service exams. I built intelligent AI agents to modernize user interaction, improved checkout and subscriptions (Hotmart and RevenueCat) with real-time sync, and led database migrations from legacy systems.',
+        challenge: 'A platform that prepares students for Brazilian public service exams, running on legacy databases, with payment reconciliation issues between Hotmart and the app stores and complex back-end processes that needed automation.',
+        solution: 'Built AI agents and automated workflows (OpenAI, Gemini, n8n), integrated Hotmart and RevenueCat checkout with real-time plan sync, led the database migrations off legacy systems and tuned SQL queries and infrastructure (Nginx, VPS, load balancing).',
+        result: 'More consistent payments with fewer reconciliation issues, a more scalable architecture and data integrity preserved through critical hosting transitions.',
       },
       shark: {
         type: 'E-commerce + Lounge',
-        description:
-          'E-commerce and lounge platform for the Shark Smokehouse tobacco shop, in production, which I designed and built. Checkout is recalculated and written on the server in a single transaction (prices, stock, coupon and order), with Mercado Pago PIX payments confirmed by signed webhooks. It includes a tiered loyalty program with rewards, a point-of-sale system, marketing automations, an operations dashboard and 28 Vitest test files.',
+        challenge: 'A premium tobacco shop and lounge in João Pessoa needed online sales, lounge bookings and in-store operations in one place, with payments that cannot be tampered with from the browser.',
+        solution: 'Designed and built the whole platform. Checkout is recalculated and written on the server in a single transaction (prices, stock, coupon and order), with Mercado Pago PIX payments confirmed via webhook and verified against the Mercado Pago API. It also has a tiered loyalty program with rewards, a point-of-sale system, marketing automations and an operations dashboard.',
+        result: 'In production, covered by 30 Vitest test files and serving real customers.',
         highlight: { value: '61', label: 'registered users · in production' },
       },
     },

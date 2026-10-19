@@ -73,7 +73,27 @@ function ProjectDetail({ project, index, onStep }) {
             <span className="impact__label">{copy.highlight.label}</span>
           </p>
         )}
-        <p className="text-white/70 text-[15px] leading-relaxed font-light flex-1 text-pretty">{copy.description}</p>
+        {project.shot && (
+          <img
+            src={project.shot}
+            alt={`${p.shotAlt} ${project.title}`}
+            width="1200"
+            height="659"
+            loading="lazy"
+            decoding="async"
+            className="w-full h-auto rounded-lg border border-white/10 mb-7"
+          />
+        )}
+        <dl className="flex-1 space-y-5" aria-label={p.caseAria}>
+          {['challenge', 'solution', 'result'].map((k) => (
+            <div key={k}>
+              <dt className="font-mono text-[11px] tracking-widest uppercase" style={{ color: project.color }}>
+                {p[k]}
+              </dt>
+              <dd className="mt-1.5 text-white/70 text-[15px] leading-relaxed font-light text-pretty">{copy[k]}</dd>
+            </div>
+          ))}
+        </dl>
 
         <ul className="mt-7 flex flex-wrap gap-2" aria-label={p.stackAria}>
           {project.stack.map((s) => (

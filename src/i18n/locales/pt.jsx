@@ -35,7 +35,7 @@ const pt = {
     status: 'Disponível para novas oportunidades',
     role: 'Engenheiro de Software Full Stack',
     stackAria: 'Principais tecnologias',
-    lead: 'Engenheiro full stack com 3+ anos construindo sistemas web, mobile e back-end com Java (Spring Boot), TypeScript (React, Node.js), Python e SQL. Arquitetura REST, integração com IA, automação de processos e otimização de bancos nos setores financeiro, público e de educação.',
+    lead: 'Engenheiro full stack com 4+ anos construindo sistemas web, mobile e back-end com Java (Spring Boot), TypeScript (React, Node.js), Python e SQL. Arquitetura REST, integração com IA, automação de processos e otimização de bancos nos setores financeiro, público e de educação.',
     cv: 'Baixar CV',
     cvNote: 'PDF',
     ctaProjects: 'Ver projetos',
@@ -59,7 +59,7 @@ const pt = {
     intro: (
       <>
         Sou <strong className="text-white font-normal">João Pedro Soares</strong>, engenheiro de software full stack
-        brasileiro com <span className="text-orange-bright">mais de 3 anos de experiência</span>, nascido em Natal (RN),
+        brasileiro com <span className="text-orange-bright">mais de 4 anos de experiência</span>, nascido em Natal (RN),
         formado em João Pessoa (PB) e hoje baseado em <span className="text-white">Granada, Espanha</span>.
       </>
     ),
@@ -180,23 +180,32 @@ const pt = {
     code: 'Código',
     codeSr: 'no GitHub',
     stackAria: 'Stack',
+    caseAria: 'Estudo de caso',
+    challenge: 'Desafio',
+    solution: 'O que fiz',
+    result: 'Resultado',
+    shotAlt: 'Captura de tela do',
     academicTitle: 'Também no GitHub',
     academicSr: '(abre o GitHub em nova aba)',
     items: {
       codigodavida: {
         type: 'App · iOS / Android / Web',
-        description:
-          'Aplicativo mobile desenvolvido do zero, da modelagem de dados à publicação nas lojas. Arquitetura de Load Balance e protocolos de segurança para alta disponibilidade, com geração automatizada de conteúdo multimídia (áudio, texto e imagem) via integração nativa com modelos de IA.',
+        challenge: 'Lançar do zero um app de conteúdo premium para iOS, Android e Web, com conteúdo multimídia produzido em escala e assinaturas que funcionem nas lojas e na web.',
+        solution: 'Como desenvolvedor principal, conduzi da modelagem de dados à publicação nas lojas: uma única base em React + TypeScript empacotada com Capacitor, back-end em Supabase com balanceamento de carga e mecanismos de segurança, e pipelines de IA (OpenAI, Gemini, n8n) que geram áudio, texto e imagem. O RevenueCat mantém os planos sincronizados entre lojas e web.',
+        result: 'No ar em três plataformas a partir de uma única base de código, com geração automática de conteúdo e assinaturas sincronizadas em todo lugar.',
+        highlight: { value: '3', label: 'plataformas no ar · iOS, Android e Web' },
       },
       ousepassar: {
         type: 'Plataforma Educacional',
-        description:
-          'Plataforma de preparação para concursos. Desenvolvi agentes inteligentes de IA para modernizar a interação com o usuário, otimizei o checkout e as assinaturas (Hotmart e RevenueCat) com sincronização em tempo real, e conduzi migrações de banco de sistemas legados.',
+        challenge: 'Plataforma de preparação para concursos rodando sobre bancos legados, com problemas de conciliação de pagamentos entre Hotmart e as lojas de apps e processos de back-end complexos que precisavam ser automatizados.',
+        solution: 'Desenvolvi agentes de IA e fluxos automatizados (OpenAI, Gemini, n8n), integrei o checkout da Hotmart e do RevenueCat com sincronização de planos em tempo real, conduzi as migrações dos bancos legados e otimizei consultas SQL e a infraestrutura (Nginx, VPS, balanceamento de carga).',
+        result: 'Pagamentos mais consistentes e com menos problemas de conciliação, arquitetura mais escalável e integridade dos dados preservada em transições críticas de hospedagem.',
       },
       shark: {
         type: 'E-commerce + Lounge',
-        description:
-          'E-commerce e lounge da tabacaria Shark Smokehouse, em produção, que projetei e desenvolvi. O checkout é recalculado e gravado no servidor numa única transação (preços, estoque, cupom e pedido), com PIX via Mercado Pago confirmado por webhook assinado. Inclui programa de fidelidade com níveis e resgates, PDV de balcão, automações de marketing, central de operações e 28 arquivos de testes com Vitest.',
+        challenge: 'Uma tabacaria e lounge premium em João Pessoa precisava reunir vendas online, reservas do lounge e operação da loja num só lugar, com pagamentos que não pudessem ser manipulados pelo navegador.',
+        solution: 'Projetei e desenvolvi a plataforma inteira. O checkout é recalculado e gravado no servidor numa única transação (preços, estoque, cupom e pedido), com PIX via Mercado Pago confirmado por webhook e conferido na API do Mercado Pago. Inclui também programa de fidelidade com níveis e resgates, PDV de balcão, automações de marketing e central de operações.',
+        result: 'Em produção, coberto por 30 arquivos de testes com Vitest e atendendo clientes reais.',
         highlight: { value: '61', label: 'usuários cadastrados · em produção' },
       },
     },

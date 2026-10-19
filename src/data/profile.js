@@ -20,7 +20,7 @@ export const FILM = {
 
 export const HERO_STACK = ['Java', 'Spring Boot', 'TypeScript', 'React', 'Node.js', 'Python']
 
-export const HERO_STATS = ['3+', '4', '3']
+export const HERO_STATS = ['4+', '4', '3']
 
 // Same order as LinkedIn. Copy for each entry lives in the locales under the same id.
 export const EXPERIENCES = [
@@ -44,6 +44,7 @@ export const SKILL_GROUPS = [
 export const PROJECTS = [
   {
     id: 'codigodavida',
+    shot: '/projects/codigodavida.webp',
     title: 'Código da Vida',
     stack: ['React', 'TypeScript', 'Capacitor', 'Supabase', 'OpenAI', 'Gemini', 'n8n', 'RevenueCat'],
     demo: 'https://appcodigodavida.com.br/portal',
@@ -52,6 +53,7 @@ export const PROJECTS = [
   },
   {
     id: 'ousepassar',
+    shot: '/projects/ousepassar.webp',
     title: 'Ouse Passar',
     stack: ['React', 'Java', 'Spring Boot', 'IA', 'PostgreSQL'],
     demo: 'https://app.ousepassar.com.br/',
@@ -60,6 +62,7 @@ export const PROJECTS = [
   },
   {
     id: 'shark',
+    shot: '/projects/shark.webp',
     title: 'Shark Smokehouse',
     stack: ['Next.js 16', 'React 19', 'TypeScript', 'Tailwind v4', 'Firebase', 'Mercado Pago', 'Zustand', 'Cloudinary', 'Vitest'],
     link: 'https://github.com/Jpsoaresfig/Shark_SmokeHouse',
