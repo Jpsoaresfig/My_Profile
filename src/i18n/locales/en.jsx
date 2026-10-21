@@ -182,6 +182,7 @@ const en = {
     codeSr: 'on GitHub',
     stackAria: 'Stack',
     caseAria: 'Case study',
+    problem: 'The problem',
     challenge: 'Challenge',
     solution: 'What I did',
     result: 'Result',
@@ -191,6 +192,7 @@ const en = {
     items: {
       codigodavida: {
         type: 'App · iOS / Android / Web',
+        problem: 'Many people want to change their lives but stay on autopilot: motivation lasts a few days and never becomes a routine. Código da Vida is the official app of Glau Borges’ method and turns that change into a guided journey, with structured challenges (such as 90 days and radical discipline), small daily tasks (reviewing goals, gratitude, morning reflection), progress tracking, courses and a community with weekly live sessions.',
         challenge: 'Launch a premium content app on iOS, Android and Web from scratch, with multimedia content produced at scale and subscriptions that work across app stores and the web.',
         solution: 'As lead developer I took it from data modeling to store release: one React + TypeScript codebase shipped with Capacitor, a Supabase back-end with load balancing and security mechanisms, and AI pipelines (OpenAI, Gemini, n8n) that generate audio, text and images. RevenueCat keeps plans in sync across stores and web.',
         result: 'Live on three platforms from a single codebase, with automated content generation and subscriptions in sync everywhere.',
@@ -198,13 +200,15 @@ const en = {
       },
       ousepassar: {
         type: 'Education Platform',
+        problem: 'Students preparing for Brazilian public service exams (such as the Federal Highway Police and Federal Police) often don’t know where to start, study topics at random and can’t see where they keep getting things wrong. Ouse Passar organizes their preparation into missions, lessons and practice questions, in a cycle of theory, questions, error analysis and review, with an error notebook, a study routine, performance stats and an AI tutor that answers students’ questions.',
         challenge: 'A platform that prepares students for Brazilian public service exams, running on legacy databases, with payment reconciliation issues between Hotmart and the app stores and complex back-end processes that needed automation.',
         solution: 'Built AI agents and automated workflows (OpenAI, Gemini, n8n), integrated Hotmart and RevenueCat checkout with real-time plan sync, led the database migrations off legacy systems and tuned SQL queries and infrastructure (Nginx, VPS, load balancing).',
         result: 'More consistent payments with fewer reconciliation issues, a more scalable architecture and data integrity preserved through critical hosting transitions.',
       },
       shark: {
         type: 'E-commerce + Lounge',
-        challenge: 'A premium tobacco shop and lounge in João Pessoa needed online sales, lounge bookings and in-store operations in one place, with payments that cannot be tampered with from the browser.',
+        problem: 'Sales, lounge bookings, stock and customer loyalty were all handled by hand and in Excel spreadsheets, with no online store and no single view of the business. I brought everything together in one platform.',
+        challenge: 'Unify online sales, lounge bookings and in-store operations for a premium tobacco shop and lounge in João Pessoa, with payments that cannot be tampered with from the browser.',
         solution: 'Designed and built the whole platform. Checkout is recalculated and written on the server in a single transaction (prices, stock, coupon and order), with Mercado Pago PIX payments confirmed via webhook and verified against the Mercado Pago API. It also has a tiered loyalty program with rewards, a point-of-sale system, marketing automations and an operations dashboard.',
         result: 'In production, covered by 30 Vitest test files and serving real customers.',
         highlight: { value: '61', label: 'registered users · in production' },

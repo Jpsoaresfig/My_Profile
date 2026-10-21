@@ -182,6 +182,7 @@ const es = {
     codeSr: 'en GitHub',
     stackAria: 'Stack',
     caseAria: 'Caso de estudio',
+    problem: 'El problema',
     challenge: 'Reto',
     solution: 'Qué hice',
     result: 'Resultado',
@@ -191,6 +192,7 @@ const es = {
     items: {
       codigodavida: {
         type: 'App · iOS / Android / Web',
+        problem: 'Mucha gente quiere cambiar de vida, pero vive en piloto automático: la motivación dura pocos días y nunca se convierte en rutina. Código da Vida es la app oficial del método de Glau Borges y convierte ese cambio en un recorrido guiado, con retos estructurados (como el de 90 días y el de disciplina radical), tareas prácticas diarias (revisar metas, gratitud, reflexión matinal), seguimiento del progreso, cursos y una comunidad con encuentros semanales.',
         challenge: 'Lanzar desde cero una app de contenido premium para iOS, Android y Web, con contenido multimedia producido a escala y suscripciones que funcionen en las tiendas y en la web.',
         solution: 'Como desarrollador principal, la llevé del modelado de datos a la publicación en las tiendas: una única base en React + TypeScript empaquetada con Capacitor, un back-end en Supabase con balanceo de carga y mecanismos de seguridad, y pipelines de IA (OpenAI, Gemini, n8n) que generan audio, texto e imagen. RevenueCat mantiene los planes sincronizados entre tiendas y web.',
         result: 'En producción en tres plataformas desde una única base de código, con generación automática de contenido y suscripciones sincronizadas en todas partes.',
@@ -198,13 +200,15 @@ const es = {
       },
       ousepassar: {
         type: 'Plataforma Educativa',
+        problem: 'Quien prepara una oposición en Brasil (como la Policía Federal de Carreteras o la Policía Federal) suele no saber por dónde empezar, estudia temas sueltos y no ve en qué está fallando. Ouse Passar organiza la preparación en misiones, clases y preguntas, en un ciclo de teoría, preguntas, análisis de errores y repaso, con cuaderno de errores, rutina de estudio, estadísticas de rendimiento y una tutora con IA que resuelve las dudas de los alumnos.',
         challenge: 'Plataforma de preparación para oposiciones en Brasil que funcionaba sobre bases de datos heredadas, con problemas de conciliación de pagos entre Hotmart y las tiendas de apps y procesos de back-end complejos que había que automatizar.',
         solution: 'Desarrollé agentes de IA y flujos automatizados (OpenAI, Gemini, n8n), integré el checkout de Hotmart y RevenueCat con sincronización de planes en tiempo real, lideré las migraciones de las bases heredadas y optimicé consultas SQL e infraestructura (Nginx, VPS, balanceo de carga).',
         result: 'Pagos más consistentes y con menos problemas de conciliación, una arquitectura más escalable e integridad de datos preservada en transiciones críticas de alojamiento.',
       },
       shark: {
         type: 'E-commerce + Lounge',
-        challenge: 'Una tabaquería y lounge premium en João Pessoa necesitaba reunir ventas online, reservas del lounge y la operación de la tienda en un solo lugar, con pagos que no se pudieran manipular desde el navegador.',
+        problem: 'Las ventas, las reservas del lounge, el stock y la fidelización de clientes se llevaban a mano y en hojas de Excel, sin tienda online y sin una visión única del negocio. Lo unifiqué todo en una sola plataforma.',
+        challenge: 'Reunir en un único sistema las ventas online, las reservas del lounge y la operación de la tienda de una tabaquería y lounge premium en João Pessoa, con pagos que no se pudieran manipular desde el navegador.',
         solution: 'Diseñé y desarrollé toda la plataforma. El checkout se recalcula y se graba en el servidor en una única transacción (precios, stock, cupón y pedido), con pagos PIX de Mercado Pago confirmados por webhook y verificados en la API de Mercado Pago. Incluye además un programa de fidelidad con niveles y canjes, un TPV de mostrador, automatizaciones de marketing y una central de operaciones.',
         result: 'En producción, cubierto por 30 archivos de pruebas con Vitest y atendiendo a clientes reales.',
         highlight: { value: '61', label: 'usuarios registrados · en producción' },

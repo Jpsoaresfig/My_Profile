@@ -85,7 +85,7 @@ function ProjectDetail({ project, index, onStep }) {
           />
         )}
         <dl className="flex-1 space-y-5" aria-label={p.caseAria}>
-          {['challenge', 'solution', 'result'].map((k) => (
+          {['problem', 'challenge', 'solution', 'result'].map((k) => (
             <div key={k}>
               <dt className="font-mono text-[11px] tracking-widest uppercase" style={{ color: project.color }}>
                 {p[k]}
