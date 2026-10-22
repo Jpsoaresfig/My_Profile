@@ -50,7 +50,7 @@ CV = {
         langs="<b>Nationality:</b> Brazilian | <b>Work permit:</b> Spain | <b>Languages:</b> Portuguese (Native), English (C1 written / B2 spoken), "
               "Spanish (B2 comprehension / B1 spoken &amp; written)",
         h=["PROFESSIONAL SUMMARY", "EDUCATION", "TECHNICAL SKILLS", "PROFESSIONAL EXPERIENCE", "SELECTED PROJECTS"],
-        summary="Full Stack Software Engineer with 4+ years of experience building web, mobile and backend systems with Java "
+        summary="Full Stack Software Engineer with 3+ years of experience building web, mobile and backend systems with Java "
                 "(Spring Boot), TypeScript (React, Node.js), Python and SQL. Experience in REST architectures, applied AI "
                 "integration, process automation, database optimization and cloud infrastructure across the financial, public "
                 "and edtech sectors.",
@@ -96,7 +96,7 @@ CV = {
         langs="<b>Nacionalidad:</b> brasileña | <b>Permiso de trabajo:</b> España | <b>Idiomas:</b> portugués (nativo), inglés (C1 escrito / B2 oral), "
               "español (B2 comprensión / B1 oral y escrito)",
         h=["PERFIL PROFESIONAL", "FORMACIÓN", "COMPETENCIAS TÉCNICAS", "EXPERIENCIA PROFESIONAL", "PROYECTOS DESTACADOS"],
-        summary="Ingeniero de software full stack con más de 4 años de experiencia desarrollando sistemas web, móviles y backend con "
+        summary="Ingeniero de software full stack con más de 3 años de experiencia desarrollando sistemas web, móviles y backend con "
                 "Java (Spring Boot), TypeScript (React, Node.js), Python y SQL. Experiencia en arquitecturas REST, integración de IA "
                 "aplicada, automatización de procesos, optimización de bases de datos e infraestructura cloud en los sectores "
                 "financiero, público y educativo.",
@@ -142,7 +142,7 @@ CV = {
         langs="<b>Nacionalidade:</b> brasileira | <b>Autorização de trabalho:</b> Espanha | <b>Idiomas:</b> português (nativo), inglês (C1 escrita / B2 conversação), "
               "espanhol (B2 compreensão / B1 conversação e escrita)",
         h=["RESUMO PROFISSIONAL", "FORMAÇÃO", "COMPETÊNCIAS TÉCNICAS", "EXPERIÊNCIA PROFISSIONAL", "PROJETOS EM DESTAQUE"],
-        summary="Engenheiro de software full stack com mais de 4 anos de experiência desenvolvendo sistemas web, mobile e backend com "
+        summary="Engenheiro de software full stack com mais de 3 anos de experiência desenvolvendo sistemas web, mobile e backend com "
                 "Java (Spring Boot), TypeScript (React, Node.js), Python e SQL. Experiência em arquiteturas REST, integração de IA "
                 "aplicada, automação de processos, otimização de bancos de dados e infraestrutura em nuvem nos setores financeiro, "
                 "público e educacional.",

@@ -36,7 +36,7 @@ const es = {
     workPermit: 'Permiso de trabajo en España',
     role: 'Ingeniero de Software Full Stack',
     stackAria: 'Tecnologías principales',
-    lead: 'Ingeniero full stack con más de 4 años construyendo sistemas web, móviles y back-end con Java (Spring Boot), TypeScript (React, Node.js), Python y SQL. Arquitectura REST, integración con IA, automatización de procesos y optimización de bases de datos en los sectores financiero, público y educativo.',
+    lead: 'Ingeniero full stack con más de 3 años construyendo sistemas web, móviles y back-end con Java (Spring Boot), TypeScript (React, Node.js), Python y SQL. Arquitectura REST, integración con IA, automatización de procesos y optimización de bases de datos en los sectores financiero, público y educativo.',
     cv: 'Descargar CV',
     cvNote: 'PDF',
     ctaProjects: 'Ver proyectos',
@@ -60,18 +60,23 @@ const es = {
     intro: (
       <>
         Soy <strong className="text-white font-normal">João Pedro Soares</strong>, ingeniero de software full stack
-        brasileño con <span className="text-orange-bright">más de 4 años de experiencia</span>, nacido en Natal, formado en
+        brasileño con <span className="text-orange-bright">más de 3 años de experiencia</span>, nacido en Natal, formado en
         João Pessoa y actualmente residente en <span className="text-white">Granada, España</span>.
       </>
     ),
     bio: 'Construyo sistemas de punta a punta: arquitectura, back-end, automatización e integración, con foco en eficiencia, automatización de procesos y transformación digital. Mi experiencia abarca Java, Spring Boot, Oracle APEX, UiPath, PHP y tecnologías modernas de front-end. He entregado soluciones de alto impacto para el sector público y financiero, siempre con código limpio, escalabilidad y seguridad de la información (LGPD, la ley brasileña de protección de datos). Me apasiona aprender rápido y construir sistemas confiables que generan valor real.',
     educationTitle: 'Formación',
+    photoOpen: 'Ver foto ampliada',
+    photoClose: 'Cerrar',
     education: [
       {
         tag: 'Grado · Finalizado',
         title: 'Ciencias de la Computación',
         place: 'Centro Universitário de João Pessoa (Unipê), Brasil',
         detail: 'Feb 2022 - Dic 2025 · Nota 8,4/10',
+        photo: '/education/tcc-unipe.jpg',
+        photoFull: '/education/tcc-unipe-full.jpg',
+        photoAlt: 'Presentación del póster del TFG en Unipê: rendimiento de APIs con Spring Boot vs Quarkus',
         desc: 'Enfoque en desarrollo de software, análisis de sistemas, bases de datos, algoritmos, redes y telecomunicaciones. Experiencia práctica en ingeniería full stack con Java, Spring Boot, React, JavaScript, APIs REST y bases de datos relacionales, además de arquitectura de software, ciberseguridad e inteligencia artificial.',
       },
       {
@@ -79,6 +84,9 @@ const es = {
         title: 'Máster Universitario en Gestión y Tecnologías de Procesos de Negocio',
         place: 'Universidad de Granada, España',
         detail: 'Sep 2026 - Sep 2027',
+        photo: '/education/mestrado-granada.jpg',
+        photoFull: '/education/mestrado-granada-full.jpg',
+        photoAlt: 'En clase del máster en la Universidad de Granada',
         desc: 'Máster en la intersección entre tecnología y negocio, con énfasis en gestión de procesos de negocio (BPM), transformación digital, sistemas empresariales, optimización de procesos y uso de la tecnología para resolver desafíos organizacionales complejos.',
       },
     ],
@@ -228,6 +236,8 @@ const es = {
     intro: 'Lo que dicen compañeros de equipo y de universidad sobre trabajar conmigo.',
     linkedinSr: '(perfil de LinkedIn, se abre en una pestaña nueva)',
     translated: 'Traducido del portugués',
+    letter: 'Leer carta completa',
+    letterSr: '(PDF en portugués, se abre en una pestaña nueva)',
     items: {
       carlos: {
         note: 'Trabajó con João Pedro en el equipo de TI de Sicredi',

@@ -36,7 +36,7 @@ const pt = {
     workPermit: 'Autorização de trabalho na Espanha',
     role: 'Engenheiro de Software Full Stack',
     stackAria: 'Principais tecnologias',
-    lead: 'Engenheiro full stack com 4+ anos construindo sistemas web, mobile e back-end com Java (Spring Boot), TypeScript (React, Node.js), Python e SQL. Arquitetura REST, integração com IA, automação de processos e otimização de bancos nos setores financeiro, público e de educação.',
+    lead: 'Engenheiro full stack com 3+ anos construindo sistemas web, mobile e back-end com Java (Spring Boot), TypeScript (React, Node.js), Python e SQL. Arquitetura REST, integração com IA, automação de processos e otimização de bancos nos setores financeiro, público e de educação.',
     cv: 'Baixar CV',
     cvNote: 'PDF',
     ctaProjects: 'Ver projetos',
@@ -60,18 +60,23 @@ const pt = {
     intro: (
       <>
         Sou <strong className="text-white font-normal">João Pedro Soares</strong>, engenheiro de software full stack
-        brasileiro com <span className="text-orange-bright">mais de 4 anos de experiência</span>, nascido em Natal (RN),
+        brasileiro com <span className="text-orange-bright">mais de 3 anos de experiência</span>, nascido em Natal (RN),
         formado em João Pessoa (PB) e hoje baseado em <span className="text-white">Granada, Espanha</span>.
       </>
     ),
     bio: 'Construo sistemas de ponta a ponta: arquitetura, back-end, automação e integração, com foco em eficiência, automação de processos e transformação digital. Minha expertise abrange Java, Spring Boot, Oracle APEX, UiPath, PHP e tecnologias modernas de front-end. Já entreguei soluções de alto impacto para o setor público e financeiro, sempre com código limpo, escalabilidade e segurança da informação (LGPD). Apaixonado por aprender rápido e construir sistemas confiáveis que geram valor real.',
     educationTitle: 'Formação',
+    photoOpen: 'Ver foto ampliada',
+    photoClose: 'Fechar',
     education: [
       {
         tag: 'Bacharelado · Concluído',
         title: 'Ciência da Computação',
         place: 'Centro Universitário de João Pessoa (Unipê), PB',
         detail: 'Fev 2022 - Dez 2025 · Nota 8,4',
+        photo: '/education/tcc-unipe.jpg',
+        photoFull: '/education/tcc-unipe-full.jpg',
+        photoAlt: 'Apresentação do pôster do TCC na Unipê: desempenho de APIs com Spring Boot vs Quarkus',
         desc: 'Foco em desenvolvimento de software, análise de sistemas, bancos de dados, algoritmos, redes e telecomunicações. Experiência prática em engenharia full stack com Java, Spring Boot, React, JavaScript, APIs REST e bancos relacionais, além de arquitetura de software, cibersegurança e inteligência artificial.',
       },
       {
@@ -79,6 +84,9 @@ const pt = {
         title: 'Mestrado em Gestão e Tecnologias de Processos de Negócio',
         place: 'Universidad de Granada, Espanha',
         detail: 'Set 2026 - Set 2027',
+        photo: '/education/mestrado-granada.jpg',
+        photoFull: '/education/mestrado-granada-full.jpg',
+        photoAlt: 'Em aula no mestrado na Universidade de Granada',
         desc: 'Mestrado na interseção entre tecnologia e negócios, com ênfase em gestão de processos de negócio (BPM), transformação digital, sistemas corporativos, otimização de processos e uso da tecnologia para resolver desafios organizacionais complexos.',
       },
     ],
@@ -228,6 +236,8 @@ const pt = {
     intro: 'O que colegas de equipe e de faculdade dizem sobre trabalhar comigo.',
     linkedinSr: '(perfil no LinkedIn, abre em nova aba)',
     translated: null,
+    letter: 'Ler carta completa',
+    letterSr: '(PDF, abre em nova aba)',
     items: {
       carlos: {
         note: 'Trabalhou com João Pedro na equipe de TI do Sicredi',

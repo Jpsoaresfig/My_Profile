@@ -31,3 +31,6 @@ video/entrega/*.mp4
 video/video.txt
 video/meuportifolioweb.png
 video/tcc.jpeg
+
+# Originais com dados de contato de terceiros (a versao publica fica em public/cv)
+cv/privado/

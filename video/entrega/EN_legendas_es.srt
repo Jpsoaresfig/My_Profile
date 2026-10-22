@@ -17,363 +17,363 @@ Soy João Pedro Soares de Figueiredo,
 ingeniero de software full stack.
 
 5
-00:00:17,134 --> 00:00:21,756
+00:00:17,134 --> 00:00:21,787
 Soy brasileño, graduado en Ciencias de la
 Computación por el Centro Universitario
 
 6
-00:00:21,756 --> 00:00:25,807
-UNIPÊ, y llevo más de cuatro años
-trabajando en desarrollo de software,
+00:00:21,787 --> 00:00:26,613
+UNIPÊ, y llevo más de tres años trabajando
+en desarrollo de software, automatización
 
 7
-00:00:25,807 --> 00:00:28,076
-automatización y soporte de TI.
+00:00:26,613 --> 00:00:28,032
+y soporte de TI.
 
 8
-00:00:28,076 --> 00:00:33,074
+00:00:28,032 --> 00:00:33,029
 Hoy vivo en Granada, donde curso el Máster
 Universitario en Gestión y Tecnologías de
 
 9
-00:00:33,074 --> 00:00:36,389
+00:00:33,029 --> 00:00:36,344
 Procesos de Negocio de la
 Universidad de Granada.
 
 10
-00:00:36,389 --> 00:00:41,201
+00:00:36,344 --> 00:00:41,157
 Es la combinación que me interesa: ingeniería
 de software y procesos de negocio,
 
 11
-00:00:41,201 --> 00:00:42,884
+00:00:41,157 --> 00:00:42,840
 trabajando juntos.
 
 12
-00:00:43,284 --> 00:00:45,667
+00:00:43,240 --> 00:00:45,623
 Mi forma de trabajar parte
 de una idea sencilla:
 
 13
-00:00:45,667 --> 00:00:48,351
+00:00:45,623 --> 00:00:48,307
 entender el problema antes de escribir código.
 
 14
-00:00:48,351 --> 00:00:53,746
+00:00:48,307 --> 00:00:53,701
 Busco la solución adecuada, modelo los
 datos y los componentes, implemento, integro
 
 15
-00:00:53,746 --> 00:00:56,291
+00:00:53,701 --> 00:00:56,246
 los servicios, pruebo y optimizo.
 
 16
-00:00:56,291 --> 00:01:00,625
+00:00:56,246 --> 00:01:00,581
 Y al final me hago una pregunta más:
 ¿qué cambia en la operación cuando esto
 
 17
-00:01:00,625 --> 00:01:01,738
+00:01:00,581 --> 00:01:01,694
 funciona?
 
 18
-00:01:02,338 --> 00:01:04,950
+00:01:02,294 --> 00:01:04,905
 He trabajado en distintas
 capas de un producto.
 
 19
-00:01:04,950 --> 00:01:10,872
+00:01:04,905 --> 00:01:10,827
 En el backend, con Java y Spring
 Boot, Node.js, Python y PHP.
 
 20
-00:01:10,872 --> 00:01:15,411
+00:01:10,827 --> 00:01:15,367
 En el frontend, con React,
 TypeScript y Next.js.
 
 21
-00:01:15,411 --> 00:01:19,710
+00:01:15,367 --> 00:01:19,666
 En los datos, con SQL, PostgreSQL y MySQL.
 
 22
-00:01:19,710 --> 00:01:25,229
+00:01:19,666 --> 00:01:25,185
 Y en aplicaciones móviles y multiplataforma
 con Capacitor, conectadas a APIs REST,
 
 23
-00:01:25,229 --> 00:01:27,646
+00:01:25,185 --> 00:01:27,602
 pagos y servicios externos.
 
 24
-00:01:27,746 --> 00:01:32,953
+00:01:27,702 --> 00:01:32,910
 En Ouse Passar fui el desarrollador principal
 de Código da Vida, una aplicación para
 
 25
-00:01:32,953 --> 00:01:37,665
+00:01:32,910 --> 00:01:37,621
 iOS, Android y web: del modelado de
 datos al backend y la publicación en las
 
 26
-00:01:37,665 --> 00:01:38,561
+00:01:37,621 --> 00:01:38,517
 tiendas.
 
 27
-00:01:38,561 --> 00:01:41,249
+00:01:38,517 --> 00:01:41,205
 Y trabajé en la plataforma de Ouse Passar:
 
 28
-00:01:41,249 --> 00:01:46,432
+00:01:41,205 --> 00:01:46,388
 pagos y suscripciones con Hotmart y
 RevenueCat, infraestructura en VPS con Nginx,
 
 29
-00:01:46,432 --> 00:01:50,296
+00:01:46,388 --> 00:01:50,252
 balanceo de carga y análisis
 de rendimiento en SQL.
 
 30
-00:01:50,696 --> 00:01:54,189
+00:01:50,652 --> 00:01:54,144
 Pero la tecnología tiene valor
 cuando mejora algo concreto.
 
 31
-00:01:54,389 --> 00:01:59,989
+00:01:54,344 --> 00:01:59,945
 En Inovatec-JP contribuí al desarrollo de
 E-PROCON, el sistema de fiscalización del
 
 32
-00:01:59,989 --> 00:02:02,823
+00:01:59,945 --> 00:02:02,779
 PROCON de Paraíba, con Java y Spring Boot:
 
 33
-00:02:02,823 --> 00:02:08,621
+00:02:02,779 --> 00:02:08,577
 inspecciones de campo digitales, sin papel
 ni bolígrafo, e informes automáticos.
 
 34
-00:02:08,621 --> 00:02:10,400
+00:02:08,577 --> 00:02:10,356
 El resultado informado en el proyecto:
 
 35
-00:02:10,400 --> 00:02:14,183
+00:02:10,356 --> 00:02:14,139
 alrededor de un setenta por ciento
 menos de tiempo de procesamiento.
 
 36
-00:02:15,183 --> 00:02:20,250
+00:02:15,139 --> 00:02:20,205
 Un trabajo de equipo, con atención a la
 interoperabilidad entre sistemas públicos y
 
 37
-00:02:20,250 --> 00:02:23,231
+00:02:20,205 --> 00:02:23,186
 a la protección de datos según la LGPD.
 
 38
-00:02:23,231 --> 00:02:27,545
+00:02:23,186 --> 00:02:27,500
 En SiCAPS, también para el PROCON, colaboré
 en la recogida digital de precios y el
 
 39
-00:02:27,545 --> 00:02:30,618
+00:02:27,500 --> 00:02:30,573
 seguimiento por
 geolocalización en tiempo real.
 
 40
-00:02:30,818 --> 00:02:35,780
+00:02:30,773 --> 00:02:35,735
 En Sicredi, como becario de desarrollo,
 automaticé con UiPath y Python la gestión de
 
 41
-00:02:35,780 --> 00:02:41,105
+00:02:35,735 --> 00:02:41,061
 cuentas inactivas, liberando cerca de un
 diez por ciento de capacidad operativa.
 
 42
-00:02:41,705 --> 00:02:44,415
+00:02:41,661 --> 00:02:44,371
 Y modernicé un generador
 de PDF heredado en PHP:
 
 43
-00:02:44,415 --> 00:02:48,742
+00:02:44,371 --> 00:02:48,697
 alrededor de un cinco por ciento
 menos de tiempo de procesamiento.
 
 44
-00:02:49,342 --> 00:02:52,363
+00:02:49,297 --> 00:02:52,319
 Mejorar lo que ya existe,
 sin reescribirlo todo:
 
 45
-00:02:52,363 --> 00:02:56,047
+00:02:52,319 --> 00:02:56,003
 encontrar el cuello de
 botella y actuar sobre él.
 
 46
-00:02:56,647 --> 00:02:59,632
+00:02:56,603 --> 00:02:59,588
 Para mí, la inteligencia
 artificial no es magia:
 
 47
-00:02:59,632 --> 00:03:02,184
+00:02:59,588 --> 00:03:02,140
 es un componente más del sistema.
 
 48
-00:03:02,184 --> 00:03:08,339
+00:03:02,140 --> 00:03:08,295
 En Ouse Passar desarrollé agentes con
 OpenAI y Gemini y flujos automatizados con
 
 49
-00:03:08,339 --> 00:03:12,993
+00:03:08,295 --> 00:03:12,949
 n8n, conectados a datos,
 backend y servicios externos.
 
 50
-00:03:12,993 --> 00:03:18,705
+00:03:12,949 --> 00:03:18,660
 Además, he creado agentes de IA que automatizan
 flujos completos, asistentes basados
 
 51
-00:03:18,705 --> 00:03:24,348
+00:03:18,660 --> 00:03:24,303
 en modelos de lenguaje y generación de
 imágenes con Gemini, conectados mediante n8n
 
 52
-00:03:24,348 --> 00:03:27,260
+00:03:24,303 --> 00:03:27,215
 y APIs a datos y productos reales.
 
 53
-00:03:27,260 --> 00:03:31,024
+00:03:27,215 --> 00:03:30,980
 Y en Sicredi, la automatización
 tenía un objetivo muy concreto:
 
 54
-00:03:31,024 --> 00:03:35,269
+00:03:30,980 --> 00:03:35,225
 quitar trabajo repetitivo y
 liberar tiempo para otras tareas.
 
 55
-00:03:35,869 --> 00:03:38,436
+00:03:35,825 --> 00:03:38,392
 También me gusta comparar
 alternativas con datos.
 
 56
-00:03:38,436 --> 00:03:43,461
+00:03:38,392 --> 00:03:43,416
 En mi trabajo de fin de grado, junto a
 mis compañeros, comparamos Spring Boot y
 
 57
-00:03:43,461 --> 00:03:45,515
+00:03:43,416 --> 00:03:45,470
 Quarkus para APIs en Java.
 
 58
-00:03:45,515 --> 00:03:51,628
+00:03:45,470 --> 00:03:51,583
 Desplegamos APIs equivalentes en Kubernetes
 y las sometimos a pruebas de carga con
 
 59
-00:03:51,628 --> 00:03:56,175
+00:03:51,583 --> 00:03:56,130
 JMeter. En reposo, Spring Boot
 usaba unos 271 MiB de memoria;
 
 60
-00:03:56,175 --> 00:03:58,042
+00:03:56,130 --> 00:03:57,997
 Quarkus, unos 21.
 
 61
-00:03:58,642 --> 00:04:03,036
+00:03:58,597 --> 00:04:02,991
 Pero Spring Boot tuvo menor latencia y
 mayor throughput, mientras que Quarkus
 
 62
-00:04:03,036 --> 00:04:07,772
+00:04:02,991 --> 00:04:07,728
 soportó la carga con menos réplicas. La
 elección correcta depende del contexto y de
 
 63
-00:04:07,772 --> 00:04:09,228
+00:04:07,728 --> 00:04:09,184
 lo que se mide.
 
 64
-00:04:09,428 --> 00:04:11,839
+00:04:09,384 --> 00:04:11,795
 Y diseñé y desarrollé Shark Smokehouse:
 
 65
-00:04:11,839 --> 00:04:16,847
+00:04:11,795 --> 00:04:16,803
 una plataforma de comercio electrónico y
 gestión para una tienda y lounge en João
 
 66
-00:04:16,847 --> 00:04:20,624
+00:04:16,803 --> 00:04:20,580
 Pessoa, ya en producción
 con 61 usuarios registrados.
 
 67
-00:04:20,624 --> 00:04:26,200
+00:04:20,580 --> 00:04:26,155
 Next.js, React, TypeScript, Firebase y
 Mercado Pago, con checkout transaccional en
 
 68
-00:04:26,200 --> 00:04:31,639
+00:04:26,155 --> 00:04:31,595
 el servidor, pagos PIX confirmados por
 webhooks firmados, programa de fidelidad,
 
 69
-00:04:31,639 --> 00:04:37,747
+00:04:31,595 --> 00:04:37,702
 punto de venta, automatizaciones de
 marketing y pruebas automatizadas con Vitest.
 
 70
-00:04:38,347 --> 00:04:40,433
+00:04:38,302 --> 00:04:40,388
 Mi trayectoria combina capas distintas.
 
 71
-00:04:40,433 --> 00:04:45,738
+00:04:40,388 --> 00:04:45,694
 En Dev Dynamos trabajé en modelado de
 datos, prototipos en Figma y documentación.
 
 72
-00:04:45,738 --> 00:04:48,465
+00:04:45,694 --> 00:04:48,421
 En Sicredi pasé por el soporte técnico:
 
 73
-00:04:48,465 --> 00:04:51,142
+00:04:48,421 --> 00:04:51,098
 redes, servidores Windows y Linux.
 
 74
-00:04:51,142 --> 00:04:55,304
+00:04:51,098 --> 00:04:55,260
 Y de ahí al desarrollo, la automatización
 y los productos completos.
 
 75
-00:04:55,304 --> 00:05:00,617
+00:04:55,260 --> 00:05:00,573
 Por eso sé que una aplicación siempre
 vive dentro de un entorno técnico real.
 
 76
-00:05:00,617 --> 00:05:05,859
+00:05:00,573 --> 00:05:05,815
 Hoy, desde Granada, sumo a esa experiencia
 una mirada de procesos de negocio.
 
 77
-00:05:05,859 --> 00:05:08,673
+00:05:05,815 --> 00:05:08,629
 Hablo portugués, inglés y español.
 
 78
-00:05:08,673 --> 00:05:13,354
+00:05:08,629 --> 00:05:13,310
 Me gusta entender cómo funcionan las cosas,
 convertir ideas en sistemas reales y
 
 79
-00:05:13,354 --> 00:05:17,757
+00:05:13,310 --> 00:05:17,713
 aprender lo necesario para resolver
 problemas en distintas capas.
 
 80
-00:05:18,557 --> 00:05:23,017
+00:05:18,513 --> 00:05:22,973
 Si tienes un reto técnico, un producto
 que construir o un proceso que mejorar, me
 
 81
-00:05:23,017 --> 00:05:24,939
+00:05:22,973 --> 00:05:24,895
 gustaría hablar contigo.

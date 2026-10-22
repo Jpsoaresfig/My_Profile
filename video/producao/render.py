@@ -380,7 +380,7 @@ def scene2(fr, d, t, G):
     text(d, (120, 410 + rise(a3)), "Full Stack Software Engineer", sans(32, "semi"), ACC, a3, anchor="ls")
 
     cards = [
-        (st("who2") + 0.2, "4+", "años de experiencia", "desarrollo · automatización · soporte de TI"),
+        (st("who2") + 0.2, "3+", "años de experiencia", "desarrollo · automatización · soporte de TI"),
         (st("who2") + du("who2") * 0.15, "", "Ciencias de la Computación", "Centro Universitário UNIPÊ · 2025"),
         (st("who3") + 0.2, "", "Granada, España", "brasileño · trayectoria en Brasil y España"),
         (st("who3") + du("who3") * 0.35, "", "Máster Universitario en Gestión y Tecnologías de Procesos de Negocio",

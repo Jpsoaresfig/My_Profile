@@ -3,6 +3,7 @@ import SectionHeader from '../shared/SectionHeader'
 import { RECOMMENDATIONS } from '../../data/profile'
 import { useI18n } from '../../i18n/context'
 import { ArrowUpRight } from '../shared/Icons'
+import { track } from '../../lib/analytics'
 
 const initials = (name) =>
   name
@@ -33,6 +34,19 @@ export default function RecommendationsSection() {
                 {copy.text}
               </blockquote>
               {r.translated && <p className="mt-4 font-mono text-[10px] tracking-wider uppercase text-white/45">{r.translated}</p>}
+              {rec.letter && (
+                <a
+                  href={rec.letter}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-ghost mt-6 self-start whitespace-normal text-left"
+                  onClick={() => track('letter_open', { id: rec.id })}
+                >
+                  {r.letter}
+                  <ArrowUpRight className="w-3.5 h-3.5 text-white/60" />
+                  <span className="sr-only">{r.letterSr}</span>
+                </a>
+              )}
               <figcaption className="mt-6 pt-6 border-t border-white/10 flex items-center gap-4">
                 <span className="avatar" aria-hidden="true">
                   {initials(rec.name)}

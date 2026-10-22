@@ -14,13 +14,13 @@ export const SECTION_IDS = ['film', 'about', 'experience', 'tech', 'projects', '
 // Presentation film on YouTube: one upload per site language (subtitles burned in), rendered by video/producao.
 // Chapter times and duration come from data/film-chapters.json, written by video/producao/web.py.
 export const FILM = {
-  youtube: { en: '_8tLE_G4Uso', es: 'vUBTB8Dm-tM', pt: 'F9Vi3pQrumo' },
+  youtube: { en: 'jLjVc3n6Iwo', es: 'WX88JmUlHGw', pt: '-LHqy9Rsh0M' },
   poster: '/video/from-problems-to-software-poster-en.jpg',
 }
 
 export const HERO_STACK = ['Java', 'Spring Boot', 'TypeScript', 'React', 'Node.js', 'Python']
 
-export const HERO_STATS = ['4+', '4', '3']
+export const HERO_STATS = ['3+', '4', '3']
 
 // Same order as LinkedIn. Copy for each entry lives in the locales under the same id.
 export const EXPERIENCES = [
@@ -81,7 +81,7 @@ export const OPEN_SOURCE = [
 ]
 
 export const RECOMMENDATIONS = [
-  { id: 'carlos', name: 'Carlos Rufino', linkedin: 'https://www.linkedin.com/in/carlos-rufino-b2b650197/', role: 'Automation & RPA Developer · Sicredi Evolução' },
+  { id: 'carlos', name: 'Carlos Rufino', linkedin: 'https://www.linkedin.com/in/carlos-rufino-b2b650197/', role: 'Automation & RPA Developer · Sicredi Evolução', letter: '/cv/Carta_Recomendacao_Carlos_Rufino.pdf' },
   { id: 'monalisa', name: 'Monalisa Silva', linkedin: 'https://www.linkedin.com/in/monalisa-ellen-silva-0b99442b3/', role: 'Systems Developer · Oracle APEX · PL/SQL' },
   { id: 'miqueias', name: 'Miquéias Soares', linkedin: 'https://www.linkedin.com/in/mq-soares/', role: 'PHP · Laravel · JS · TypeScript · Vue.js' },
   { id: 'luiz', name: 'Luiz Filipe', linkedin: 'https://www.linkedin.com/in/luiz-filipe-293865206/', role: 'Backend · Java · Spring Boot · SQL' },

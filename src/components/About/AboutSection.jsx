@@ -1,3 +1,4 @@
+import PhotoZoom from '../shared/PhotoZoom'
 import Reveal from '../shared/Reveal'
 import SectionHeader from '../shared/SectionHeader'
 import { useI18n } from '../../i18n/context'
@@ -26,10 +27,24 @@ export default function AboutSection() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6 max-w-4xl mx-auto w-full">
         {a.education.map((ed, i) => (
           <Reveal key={i} delay={i * 80} className="card p-7 md:p-8 flex flex-col">
-            <span className="eyebrow block mb-4">{ed.tag}</span>
-            <h4 className="font-gothic text-white text-2xl leading-tight tracking-wide">{ed.title}</h4>
-            <p className="text-white/70 text-sm font-light mt-3">{ed.place}</p>
-            <p className="font-mono text-xs text-white/55 mt-2">{ed.detail}</p>
+            <div className="flex items-start gap-4">
+              <div className="min-w-0 flex-1">
+                <span className="eyebrow block mb-4">{ed.tag}</span>
+                <h4 className="font-gothic text-white text-2xl leading-tight tracking-wide">{ed.title}</h4>
+                <p className="text-white/70 text-sm font-light mt-3">{ed.place}</p>
+                <p className="font-mono text-xs text-white/55 mt-2">{ed.detail}</p>
+              </div>
+              {ed.photo && (
+                <PhotoZoom
+                  src={ed.photo}
+                  full={ed.photoFull}
+                  alt={ed.photoAlt}
+                  openLabel={a.photoOpen}
+                  closeLabel={a.photoClose}
+                  className="h-20 md:h-28"
+                />
+              )}
+            </div>
             {ed.desc && (
               <p className="text-white/60 text-sm font-light leading-relaxed mt-5 pt-5 border-t border-white/10 text-pretty">
                 {ed.desc}
