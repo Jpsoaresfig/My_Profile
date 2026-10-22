@@ -1,6 +1,7 @@
 import PhotoZoom from '../shared/PhotoZoom'
 import Reveal from '../shared/Reveal'
 import SectionHeader from '../shared/SectionHeader'
+import { SOFT_SKILLS } from '../../data/profile'
 import { useI18n } from '../../i18n/context'
 
 export default function AboutSection() {
@@ -64,6 +65,37 @@ export default function AboutSection() {
           ))}
         </div>
       </Reveal>
+
+      <Reveal className="divider-label w-full max-w-5xl mx-auto mt-20 md:mt-24 mb-4">
+        <h3>{a.softSkills.title}</h3>
+      </Reveal>
+      <Reveal as="p" className="text-white/60 text-sm md:text-base font-light text-center text-pretty max-w-2xl mx-auto mb-8">
+        {a.softSkills.intro}
+      </Reveal>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6 max-w-5xl mx-auto w-full">
+        {SOFT_SKILLS.map((id, i) => {
+          const s = a.softSkills.items[id]
+          return (
+            <Reveal key={id} delay={(i % 3) * 80} className="card p-4 flex flex-col">
+              <PhotoZoom
+                src={`/softskills/${id}.jpg`}
+                full={`/softskills/${id}-full.jpg`}
+                alt={s.photoAlt}
+                openLabel={a.photoOpen}
+                closeLabel={a.photoClose}
+                className="w-full aspect-[4/3]"
+                imgClassName="h-full w-full object-cover"
+              />
+              <div className="px-3 pt-5 pb-3">
+                <span className="eyebrow block mb-3">{s.caption}</span>
+                <h4 className="font-gothic text-white text-2xl leading-tight tracking-wide">{s.title}</h4>
+                <p className="text-white/60 text-sm font-light leading-relaxed mt-3 text-pretty">{s.desc}</p>
+              </div>
+            </Reveal>
+          )
+        })}
+      </div>
     </section>
   )
 }

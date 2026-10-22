@@ -96,6 +96,48 @@ const en = {
       { name: 'English', level: 'C1 written · B2 spoken' },
       { name: 'Spanish', level: 'B2 comprehension · B1 spoken & written' },
     ],
+    softSkills: {
+      title: 'Soft skills',
+      intro: 'Beyond the code: how I work with people, in real moments from my journey.',
+      items: {
+        teamwork: {
+          title: 'Teamwork',
+          caption: 'IT team · Sicredi',
+          photoAlt: 'João Pedro with the Sicredi IT team celebrating their manager’s birthday',
+          desc: 'Two years on the Sicredi IT team, across support and development. I learned that good delivery comes from trust, mutual support and a light atmosphere, where the team also celebrates together.',
+        },
+        communication: {
+          title: 'Communication',
+          caption: 'Thesis defense · Online',
+          photoAlt: 'Online thesis defense on Google Meet with the advisor, classmates and guests',
+          desc: 'I presented and defended our team thesis to the advisor, classmates and guests, explaining technical performance results (Spring Boot vs Quarkus on Kubernetes) clearly and concisely.',
+        },
+        collaboration: {
+          title: 'Collaboration',
+          caption: 'Software Factory · University',
+          photoAlt: 'Software Factory class gathered in the computer lab',
+          desc: 'At the university’s Software Factory I built projects in groups: splitting tasks, reviewing each other’s work, and learning and teaching together.',
+        },
+        learning: {
+          title: 'Continuous learning',
+          caption: 'Innovation event · INOVA',
+          photoAlt: 'João Pedro in front of the illuminated INOVA event sign',
+          desc: 'I seek out innovation events to stay up to date, discover new ideas and bring what I learn into my day-to-day work as an engineer.',
+        },
+        growth: {
+          title: 'Resilience',
+          caption: 'Always seeking knowledge',
+          photoAlt: 'Late-night study setup with a laptop, a monitor running Docker containers and a backlit keyboard',
+          desc: 'After hours, I keep studying and building projects. Errors and setbacks become lessons: I persist, dig in and come back stronger, always looking to grow.',
+        },
+        community: {
+          title: 'Passion for technology',
+          caption: '43rd CSBC · 2023',
+          photoAlt: 'João Pedro with peers at the 43rd Brazilian Computer Society Congress',
+          desc: 'At the Brazilian Computer Society Congress (CSBC) with peers: sharing experiences, networking and staying close to the latest in computing.',
+        },
+      },
+    },
   },
   experience: {
     label: 'Experience',

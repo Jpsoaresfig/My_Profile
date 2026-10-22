@@ -31,6 +31,10 @@ export const EXPERIENCES = [
   { id: 'devdynamos', company: 'Dev Dynamos', stack: ['Java', 'JavaScript', 'PHP', 'MySQL', 'Vue', 'React', 'Docker', 'Figma', 'Jira'] },
 ]
 
+// Soft skills, each backed by a photo in public/softskills (<id>.jpg 4:3 thumb, <id>-full.jpg).
+// Copy lives in the locales under about.softSkills.items[id].
+export const SOFT_SKILLS = ['teamwork', 'communication', 'collaboration', 'learning', 'growth', 'community']
+
 export const SKILL_GROUPS = [
   { id: 'backend', color: '#6db33f', skills: ['Java', 'Spring Boot', 'Node.js', 'Python', 'PHP', 'C#', '.NET (VB.NET)', 'REST APIs'] },
   { id: 'frontend', color: '#61dafb', skills: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'React Native', 'Capacitor', 'HTML5 / CSS3', 'Tailwind CSS'] },

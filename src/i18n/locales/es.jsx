@@ -96,6 +96,48 @@ const es = {
       { name: 'Inglés', level: 'C1 escrito · B2 oral' },
       { name: 'Español', level: 'B2 comprensión · B1 oral y escrito' },
     ],
+    softSkills: {
+      title: 'Soft skills',
+      intro: 'Más allá del código: cómo trabajo con las personas, en momentos reales de mi trayectoria.',
+      items: {
+        teamwork: {
+          title: 'Trabajo en equipo',
+          caption: 'Equipo de TI · Sicredi',
+          photoAlt: 'João Pedro con el equipo de TI de Sicredi celebrando el cumpleaños de su responsable',
+          desc: 'Dos años en el equipo de TI de Sicredi, entre soporte y desarrollo. Aprendí que las buenas entregas nacen de la confianza, el apoyo mutuo y un ambiente cercano, donde el equipo también celebra unido.',
+        },
+        communication: {
+          title: 'Comunicación',
+          caption: 'Defensa del TFG · Online',
+          photoAlt: 'Defensa online del TFG en Google Meet con el tutor, compañeros e invitados',
+          desc: 'Presenté y defendí el TFG en equipo ante el tutor, compañeros e invitados, explicando resultados técnicos de rendimiento (Spring Boot vs Quarkus en Kubernetes) de forma clara y directa.',
+        },
+        collaboration: {
+          title: 'Colaboración',
+          caption: 'Fábrica de Software · Grado',
+          photoAlt: 'Grupo de la Fábrica de Software reunido en el laboratorio de informática',
+          desc: 'En la Fábrica de Software del grado desarrollé proyectos en grupo: repartiendo tareas, revisando el trabajo de los compañeros y aprendiendo y enseñando juntos.',
+        },
+        learning: {
+          title: 'Aprendizaje continuo',
+          caption: 'Evento de innovación · INOVA',
+          photoAlt: 'João Pedro frente al letrero iluminado del evento INOVA',
+          desc: 'Busco eventos de innovación para mantenerme actualizado, conocer nuevas ideas y llevar lo que aprendo a mi día a día como ingeniero.',
+        },
+        growth: {
+          title: 'Resiliencia',
+          caption: 'Siempre en busca de conocimiento',
+          photoAlt: 'Setup de estudio de noche, con portátil, monitor ejecutando contenedores Docker y teclado iluminado',
+          desc: 'Fuera del horario laboral, sigo estudiando y creando proyectos. Los errores y obstáculos se convierten en aprendizaje: insisto, investigo y vuelvo más fuerte, siempre buscando crecer.',
+        },
+        community: {
+          title: 'Pasión por la tecnología',
+          caption: '43.º CSBC · 2023',
+          photoAlt: 'João Pedro con compañeros en el 43.º Congreso de la Sociedad Brasileña de Computación',
+          desc: 'En el Congreso de la Sociedad Brasileña de Computación (CSBC) con compañeros: intercambio de experiencias, networking y contacto con lo más nuevo de la computación.',
+        },
+      },
+    },
   },
   experience: {
     label: 'Experiencia',

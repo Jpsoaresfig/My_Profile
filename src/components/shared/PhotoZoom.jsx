@@ -5,7 +5,7 @@ import { lockScroll } from '../../lib/smoothScroll'
 // Small thumbnail that opens the full photo in an overlay. Rendered through a
 // portal (Reveal's transform would break position: fixed) and kept below the
 // custom cursor's z-index so the cursor stays visible over it.
-export default function PhotoZoom({ src, full = src, alt, openLabel, closeLabel, className }) {
+export default function PhotoZoom({ src, full = src, alt, openLabel, closeLabel, className, imgClassName = 'h-full w-auto' }) {
   const [open, setOpen] = useState(false)
   const triggerRef = useRef(null)
   const closeRef = useRef(null)
@@ -43,7 +43,7 @@ export default function PhotoZoom({ src, full = src, alt, openLabel, closeLabel,
           alt=""
           loading="lazy"
           decoding="async"
-          className="block h-full w-auto transition-transform duration-300 group-hover:scale-105"
+          className={`block ${imgClassName} transition-transform duration-300 group-hover:scale-105`}
         />
       </button>
 
