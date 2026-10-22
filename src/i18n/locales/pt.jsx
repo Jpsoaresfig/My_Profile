@@ -73,7 +73,7 @@ const pt = {
         tag: 'Bacharelado · Concluído',
         title: 'Ciência da Computação',
         place: 'Centro Universitário de João Pessoa (Unipê), PB',
-        detail: 'Fev 2022 - Dez 2025 · Nota 8,4',
+        detail: 'Fev 2022 - Dez 2025 · Nota 8,4/10',
         photo: '/education/tcc-unipe.jpg',
         photoFull: '/education/tcc-unipe-full.jpg',
         photoAlt: 'Apresentação do pôster do TCC na Unipê: desempenho de APIs com Spring Boot vs Quarkus',

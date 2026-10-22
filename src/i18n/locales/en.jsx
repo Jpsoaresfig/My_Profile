@@ -48,7 +48,7 @@ const en = {
     title: 'From problems',
     highlight: 'to software',
     intro: 'Five minutes on how I work: full stack engineering, applied AI and automation built into real systems, and the results of the projects I took part in. Pick a chapter to jump straight to what interests you.',
-    meta: 'English narration',
+    meta: 'English narration · English subtitles',
     play: 'Play the film',
     chaptersLabel: 'Film chapters',
     chapters: ['Intro', 'About me', 'How I work', 'Full stack engineering', 'Real impact', 'AI and automation', 'Projects', 'Career path', 'Contact'],

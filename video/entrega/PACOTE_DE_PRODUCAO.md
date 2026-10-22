@@ -139,7 +139,7 @@ PT: *Do problema ao software. João Pedro Figueiredo, Full Stack Software Engine
 2. Ou arraste o .mp4 (até 10 MB no plano gratuito — exporte uma versão 720p se necessário) direto num comentário/README pelo editor web do GitHub.
 
 **Recrutadores**
-- Envie o link (YouTube/Drive), não o arquivo. Mensagem curta: *"Hola, [nombre]. Te comparto un vídeo de 4 minutos sobre mi trabajo como Full Stack Engineer (Java/Spring Boot, React/TypeScript, automatización). Hay versión en español, inglés y portugués. ¿Te parece si hablamos esta semana?"*
+- Envie o link (YouTube/Drive), não o arquivo. Mensagem curta: *"Hola, [nombre]. Te comparto un vídeo de 5 minutos sobre mi trabajo como Full Stack Engineer (Java/Spring Boot, React/TypeScript, automatización). Hay versión en español, inglés y portugués. ¿Te parece si hablamos esta semana?"*
 
 ## 12. Como reproduzir / editar
 
