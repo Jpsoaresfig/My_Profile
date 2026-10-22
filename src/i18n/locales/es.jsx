@@ -115,7 +115,7 @@ const es = {
         ],
       },
       ousepassar: {
-        role: 'Ingeniero de Software · Contrato',
+        role: 'Ingeniero de Software · Jornada completa',
         period: 'Ene 2026 - Jul 2026',
         location: 'João Pessoa, Brasil · Híbrido',
         impact: { value: '3', label: 'plataformas (iOS, Android y Web) entregadas como desarrollador principal' },

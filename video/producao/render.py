@@ -488,7 +488,7 @@ def scene4(fr, d, t, G):
             panel_img(fr, im, px, py, a2, "CAPTURA REAL · PLATAFORMA OUSE PASSAR")
         d = ImageDraw.Draw(fr)
         text(d, (1250, 190), "Ouse Passar", bahn(48, "SemiBold"), TEXT, B, anchor="ls")
-        text(d, (1250, 222), "Full Stack Developer · ene 2026 – jul 2026", mono(17), MUTED, B, anchor="ls")
+        text(d, (1250, 222), "Software Engineer · ene 2026 – jul 2026", mono(17), MUTED, B, anchor="ls")
         flow = [("Interfaz", "React · TypeScript · Capacitor", ta + du("fs6") * 0.25),
                 ("Backend", "lógica · reglas de negocio", ta + du("fs6") * 0.6),
                 ("Datos", "Supabase · PostgreSQL", ta + du("fs6") * 0.45),
@@ -609,7 +609,7 @@ def scene5(fr, d, t, G):
             panel_img(fr, im, 120, 175, pf, "EQUIPO · SICREDI EVOLUÇÃO")
             d = ImageDraw.Draw(fr)
         text(d, (x, 250), "Sicredi Evolução", bahn(64, "Bold"), TEXT, p4, anchor="ls")
-        text(d, (x, 290), "Software Developer Intern · UiPath · Python", mono(18), MUTED, p4, anchor="ls")
+        text(d, (x, 290), "Software Development Intern · UiPath · Python", mono(18), MUTED, p4, anchor="ls")
         metric(d, 120, 560, int(round(10 * ease((t - tc) / 1.2))), "%", p4 * ap(t, tc - 0.4, 0.5), size=300)
         text(d, (124, 640), "capacidad operativa liberada", sans(40, "semi"), TEXT, p4 * ap(t, tc + 0.4, 0.6), anchor="ls")
         # fluxo manual -> robô
@@ -806,9 +806,9 @@ def scene8(fr, d, t, G):
         X0, X1, M = 640, 1800, 43
         rows = [("Dev Dynamos", "Software Developer · freelance", "mar 2023 – oct 2023", m(2023, 3), m(2023, 10) + 1, "tr2"),
                 ("Sicredi Evolução", "Técnico de soporte de TI", "oct 2023 – may 2024", m(2023, 10), m(2024, 5) + 1, "tr3"),
-                ("Sicredi Evolução", "Software Developer Intern", "may 2024 – sep 2025", m(2024, 5), m(2025, 9) + 1, "tr4"),
-                ("Inovatec-JP", "Full Stack Developer", "oct 2025 – ago 2026", m(2025, 10), m(2026, 8) + 1, "tr4"),
-                ("Ouse Passar", "Full Stack Developer", "ene 2026 – jul 2026", m(2026, 1), m(2026, 7) + 1, "tr4")]
+                ("Sicredi Evolução", "Software Development Intern", "may 2024 – sep 2025", m(2024, 5), m(2025, 9) + 1, "tr4"),
+                ("Inovatec-JP", "Full Stack Software Engineer", "oct 2025 – ago 2026", m(2025, 10), m(2026, 8) + 1, "tr4"),
+                ("Ouse Passar", "Software Engineer", "ene 2026 – jul 2026", m(2026, 1), m(2026, 7) + 1, "tr4")]
         for yr in range(2023, 2027):
             xm = X0 + (X1 - X0) * max(m(yr, 1), 0) / M
             d.line((xm, 200, xm, 760), fill=col(LINE, p1 * 0.7), width=1)

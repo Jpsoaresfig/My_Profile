@@ -62,7 +62,7 @@ TR = {
     "Servicios externos": ("External services", "Serviços externos"),
     "CAPTURA REAL · CÓDIGO DA VIDA · iOS / ANDROID / WEB": ("REAL SCREENSHOT · CÓDIGO DA VIDA · iOS / ANDROID / WEB", "CAPTURA REAL · CÓDIGO DA VIDA · iOS / ANDROID / WEB"),
     "CAPTURA REAL · PLATAFORMA OUSE PASSAR": ("REAL SCREENSHOT · OUSE PASSAR PLATFORM", "CAPTURA REAL · PLATAFORMA OUSE PASSAR"),
-    "Full Stack Developer · ene 2026 – jul 2026": ("Full Stack Developer · Jan 2026 – Jul 2026", "Full Stack Developer · jan 2026 – jul 2026"),
+    "Software Engineer · ene 2026 – jul 2026": ("Software Engineer · Jan 2026 – Jul 2026", "Software Engineer · jan 2026 – jul 2026"),
     "lógica · reglas de negocio": ("logic · business rules", "lógica · regras de negócio"),
     "VPS · Nginx · balanceo de carga · SQL": ("VPS · Nginx · load balancing · SQL", "VPS · Nginx · balanceamento de carga · SQL"),
     # cena 5

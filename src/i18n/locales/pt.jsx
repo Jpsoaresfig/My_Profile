@@ -104,7 +104,7 @@ const pt = {
     stackAria: 'Tecnologias utilizadas',
     items: {
       inovatec: {
-        role: 'Fullstack Software Engineer · Contrato',
+        role: 'Engenheiro de Software Full Stack · Contrato',
         period: 'Out 2025 - Ago 2026',
         location: 'João Pessoa, PB · Remoto',
         impact: { value: '~70%', label: 'menos tempo de processamento nas fiscalizações com o E-PROCON' },
@@ -115,7 +115,7 @@ const pt = {
         ],
       },
       ousepassar: {
-        role: 'Engenheiro de Software · Contrato',
+        role: 'Engenheiro de Software · Tempo integral',
         period: 'Jan 2026 - Jul 2026',
         location: 'João Pessoa, PB · Híbrido',
         impact: { value: '3', label: 'plataformas (iOS, Android e Web) entregues como desenvolvedor principal' },
@@ -151,7 +151,7 @@ const pt = {
         ],
       },
       devdynamos: {
-        role: 'Software Developer · Freelance',
+        role: 'Desenvolvedor de Software · Freelance',
         period: 'Mar 2023 - Out 2023',
         location: 'São Paulo, SP · Remoto',
         bullets: [
