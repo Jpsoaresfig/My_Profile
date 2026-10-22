@@ -74,7 +74,7 @@ export const PROJECTS = [
 
 export const OPEN_SOURCE = [
   // `wide` spans both grid columns.
-  { id: 'tcc', title: 'Spring Boot vs Quarkus', link: 'https://github.com/TCC-Jv-Jp-Luiz', stack: ['Java 21', 'Spring Boot', 'Quarkus', 'PostgreSQL', 'Kubernetes (GKE)', 'JMeter', 'Terraform'], wide: true },
+  { id: 'tcc', title: 'Spring Boot vs Quarkus', link: 'https://github.com/TCC-Jv-Jp-Luiz', stack: ['Java 17 / 21', 'Spring Boot', 'Quarkus', 'PostgreSQL', 'Kubernetes (GKE)', 'JMeter', 'Terraform'], wide: true },
   { id: 'apex', title: 'APEX Print Server (BIRT)', link: 'https://github.com/Jpsoaresfig/apex-print-server-birt', stack: ['Java', 'BIRT', 'Maven', 'Docker'] },
   // Title comes from the locale (projects.allRepos).
   { id: 'all', title: null, link: 'https://github.com/Jpsoaresfig', stack: ['@Jpsoaresfig'] },
