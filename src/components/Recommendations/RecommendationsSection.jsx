@@ -25,8 +25,15 @@ export default function RecommendationsSection() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6 max-w-6xl w-full mx-auto">
         {RECOMMENDATIONS.map((rec, i) => {
           const copy = r.items[rec.id]
+          // An odd last card sits centered on its own row instead of hugging the left column.
+          const orphan = RECOMMENDATIONS.length % 2 === 1 && i === RECOMMENDATIONS.length - 1
           return (
-            <Reveal as="figure" key={rec.id} delay={i * 80} className="card p-7 md:p-9 flex flex-col">
+            <Reveal
+              as="figure"
+              key={rec.id}
+              delay={i * 80}
+              className={`card p-7 md:p-9 flex flex-col${orphan ? ' md:col-span-2 md:justify-self-center md:w-[calc(50%-0.75rem)]' : ''}`}
+            >
               <span className="font-gothic text-orange-glow/50 leading-none text-6xl h-8" aria-hidden="true">
                 &ldquo;
               </span>
@@ -34,17 +41,17 @@ export default function RecommendationsSection() {
                 {copy.text}
               </blockquote>
               {r.translated && <p className="mt-4 font-mono text-[10px] tracking-wider uppercase text-white/45">{r.translated}</p>}
-              {rec.letter && (
+              {(rec.letter || rec.evaluation) && (
                 <a
-                  href={rec.letter}
+                  href={rec.letter ?? rec.evaluation}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-ghost mt-6 self-start whitespace-normal text-left"
-                  onClick={() => track('letter_open', { id: rec.id })}
+                  onClick={() => track(rec.letter ? 'letter_open' : 'evaluation_open', { id: rec.id })}
                 >
-                  {r.letter}
+                  {rec.letter ? r.letter : r.evaluation}
                   <ArrowUpRight className="w-3.5 h-3.5 text-white/60" />
-                  <span className="sr-only">{r.letterSr}</span>
+                  <span className="sr-only">{rec.letter ? r.letterSr : r.evaluationSr}</span>
                 </a>
               )}
               <figcaption className="mt-6 pt-6 border-t border-white/10 flex items-center gap-4">

@@ -88,5 +88,6 @@ export const RECOMMENDATIONS = [
   { id: 'carlos', name: 'Carlos Rufino', linkedin: 'https://www.linkedin.com/in/carlos-rufino-b2b650197/', role: 'Automation & RPA Developer · Sicredi Evolução', letter: '/cv/Carta_Recomendacao_Carlos_Rufino.pdf' },
   { id: 'monalisa', name: 'Monalisa Silva', linkedin: 'https://www.linkedin.com/in/monalisa-ellen-silva-0b99442b3/', role: 'Systems Developer · Oracle APEX · PL/SQL' },
   { id: 'miqueias', name: 'Miquéias Soares', linkedin: 'https://www.linkedin.com/in/mq-soares/', role: 'PHP · Laravel · JS · TypeScript · Vue.js' },
+  { id: 'odenir', name: 'Odenir Gomes da Silva Filho', linkedin: 'https://www.linkedin.com/in/odenirdev/', role: 'Evaluator · Dev Dynamos', evaluation: '/recommendations/feedback-devdynamos.jpg' },
   { id: 'luiz', name: 'Luiz Filipe', linkedin: 'https://www.linkedin.com/in/luiz-filipe-293865206/', role: 'Backend · Java · Spring Boot · SQL' },
 ]
