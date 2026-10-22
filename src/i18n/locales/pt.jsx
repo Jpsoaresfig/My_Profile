@@ -83,7 +83,7 @@ const pt = {
         tag: 'Mestrado · Em andamento',
         title: 'Mestrado em Gestão e Tecnologias de Processos de Negócio',
         place: 'Universidad de Granada, Espanha',
-        detail: 'Set 2026 - Set 2027',
+        detail: 'Out 2026 - Set 2027',
         photo: '/education/mestrado-granada.jpg',
         photoFull: '/education/mestrado-granada-full.jpg',
         photoAlt: 'Em aula no mestrado na Universidade de Granada',

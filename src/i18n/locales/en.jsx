@@ -83,7 +83,7 @@ const en = {
         tag: "Master's · In progress",
         title: "Master's in Business Process Management and Technologies",
         place: 'Universidad de Granada, Spain',
-        detail: 'Sep 2026 - Sep 2027',
+        detail: 'Oct 2026 - Sep 2027',
         photo: '/education/mestrado-granada.jpg',
         photoFull: '/education/mestrado-granada-full.jpg',
         photoAlt: 'In class during the master’s at the University of Granada',

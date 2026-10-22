@@ -83,7 +83,7 @@ const es = {
         tag: 'Máster · En curso',
         title: 'Máster Universitario en Gestión y Tecnologías de Procesos de Negocio',
         place: 'Universidad de Granada, España',
-        detail: 'Sep 2026 - Sep 2027',
+        detail: 'Oct 2026 - Sep 2027',
         photo: '/education/mestrado-granada.jpg',
         photoFull: '/education/mestrado-granada-full.jpg',
         photoAlt: 'En clase del máster en la Universidad de Granada',
